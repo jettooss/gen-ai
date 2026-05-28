@@ -39,9 +39,14 @@ def stream_and_validate() -> Persona:
     print("⏵ ", end="", flush=True)
     t0 = time.time()
 
-    # TODO: вызвать client.chat.completions.create с параметром stream=True.
-    # Это вернёт итератор chunks вместо одного response.
-    stream = ...
+    stream = client.chat.completions.create(
+        model=MODEL,
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": USER_PROMPT},
+        ],
+        stream=True,
+    )
 
     chunks: list[str] = []
     for chunk in stream:

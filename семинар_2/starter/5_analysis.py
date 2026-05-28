@@ -26,7 +26,6 @@
 
 import json
 import sys
-from collections import Counter
 from pathlib import Path
 
 import pandas as pd
@@ -50,13 +49,12 @@ def load(path: str) -> pd.DataFrame:
         flat.append(row)
     return pd.DataFrame(flat)
 
-
 def plot_hist_ages(df: pd.DataFrame, out: str):
     plt.figure(figsize=(8, 4))
     plt.hist(df["age"], bins=12, color="#4A90D9", edgecolor="white")
     plt.xlabel("Возраст")
-    plt.ylabel("Число персон")
-    plt.title(f"Распределение возраста ({len(df)} персон)")
+    plt.ylabel("Число заявок")
+    plt.title(f"Распределение возраста ({len(df)} заявок)")
     plt.tight_layout()
     plt.savefig(out, dpi=120)
     plt.close()
@@ -67,7 +65,7 @@ def plot_bar(series: pd.Series, title: str, out: str, color="#4A90D9"):
     plt.figure(figsize=(9, 4))
     counts.plot.bar(color=color, edgecolor="white")
     plt.title(title)
-    plt.ylabel("Число персон")
+    plt.ylabel("Число заявок")
     plt.xticks(rotation=30, ha="right")
     plt.tight_layout()
     plt.savefig(out, dpi=120)
@@ -75,57 +73,41 @@ def plot_bar(series: pd.Series, title: str, out: str, color="#4A90D9"):
     return counts
 
 
-def plot_income_by_occupation(df: pd.DataFrame, out: str):
-    if "income_rub" not in df.columns or "occupation" not in df.columns:
-        return
-    groups = df.groupby("occupation")["income_rub"].apply(list)
-    plt.figure(figsize=(10, 4))
-    # labels= переименован в tick_labels в matplotlib 3.9; используем общий
-    # подход — задаём положения, потом xticks с подписями.
-    positions = range(1, len(groups) + 1)
-    plt.boxplot(list(groups.values), positions=list(positions), vert=True)
-    plt.xticks(list(positions), list(groups.index), rotation=30, ha="right")
-    plt.ylabel("Доход, ₽/мес")
-    plt.title("Доход × профессия")
-    plt.tight_layout()
-    plt.savefig(out, dpi=120)
-    plt.close()
-
-
 def cross_table(df: pd.DataFrame) -> pd.DataFrame:
-    if "city" not in df.columns or "occupation" not in df.columns:
+    if "city" not in df.columns or "speciality" not in df.columns:
         return pd.DataFrame()
-    return pd.crosstab(df["city"], df["occupation"])
+    return pd.crosstab(df["city"], df["speciality"])
 
 
 def write_report(df: pd.DataFrame, out: str):
     n = len(df)
-    lines = [f"# Отчёт по {n} персонам\n"]
+    lines = [f"# Отчёт по {n} заявкам\n"]
 
-    # Топ городов
     cities = df["city"].value_counts()
     top_city_pct = cities.iloc[0] / n * 100
     lines.append("## Города\n")
-    lines.append(f"- Уникальных: {len(cities)} из 8 разрешённых")
+    lines.append(f"- Уникальных: {len(cities)}")
     lines.append(f"- Топ-1: **{cities.index[0]}** — {cities.iloc[0]} ({top_city_pct:.0f}%)")
     if top_city_pct > 40:
-        lines.append(f"- ⚠ Превышен порог 40% → mode collapse по городам")
+        lines.append("- ⚠ Превышен порог 40% → mode collapse по городам")
+    else:
+        lines.append("- Порог 40% не превышен")
     lines.append("")
 
-    # Топ профессий
-    occ = df["occupation"].value_counts()
-    top_occ_pct = occ.iloc[0] / n * 100
-    lines.append("## Профессии\n")
-    lines.append(f"- Уникальных: {len(occ)} из 8 разрешённых")
-    lines.append(f"- Топ-1: **{occ.index[0]}** — {occ.iloc[0]} ({top_occ_pct:.0f}%)")
-    if top_occ_pct > 35:
-        lines.append(f"- ⚠ Превышен порог 35% → mode collapse по профессиям")
+    spec = df["speciality"].value_counts()
+    top_spec_pct = spec.iloc[0] / n * 100
+    lines.append("## Специальности\n")
+    lines.append(f"- Уникальных: {len(spec)}")
+    lines.append(f"- Топ-1: **{spec.index[0]}** — {spec.iloc[0]} ({top_spec_pct:.0f}%)")
+    if top_spec_pct > 35:
+        lines.append("- ⚠ Превышен порог 35% → mode collapse по специальностям")
+    else:
+        lines.append("- Порог 35% не превышен")
     lines.append("")
 
-    # Дубликаты имён
-    names = df["name"].value_counts()
+    names = df["full_name"].value_counts()
     dupes = names[names > 1]
-    lines.append("## Имена\n")
+    lines.append("## ФИО\n")
     lines.append(f"- Уникальных: {len(names)} из {n} ({len(names)/n*100:.0f}%)")
     if len(dupes):
         lines.append(f"- Повторы: {dict(dupes.head(5))}")
@@ -133,34 +115,29 @@ def write_report(df: pd.DataFrame, out: str):
         lines.append("- Повторов нет")
     lines.append("")
 
-    # Кросс-таблица
     ct = cross_table(df)
     if not ct.empty:
-        lines.append("## Кросс-таблица город × профессия\n")
+        ct.to_csv("crosstab_city_speciality.csv", encoding="utf-8-sig")
+        lines.append("## Кросс-таблица город × специальность\n")
         lines.append("```")
         lines.append(ct.to_string())
         lines.append("```")
-        # Подозрительные комбо — пустые ячейки в крупных городах
-        for city in cities.head(2).index:
-            row = ct.loc[city] if city in ct.index else None
-            if row is not None:
-                empty = row[row == 0].index.tolist()
-                if empty:
-                    lines.append(f"- В **{city}** ни одного: {', '.join(empty)}")
         lines.append("")
 
-    # Доход × профессия
-    if "income_rub" in df.columns:
-        med = df.groupby("occupation")["income_rub"].median().sort_values(ascending=False)
-        lines.append("## Медианный доход по профессиям\n")
-        for occ_name, m in med.items():
-            lines.append(f"- {occ_name}: {int(m):,} ₽".replace(",", " "))
-        # Sanity-check: студент с доходом > 200k или пенсионер > 100k — звоночек
-        if "студент" in df["occupation"].values:
-            stud_max = df[df["occupation"] == "студент"]["income_rub"].max()
-            if stud_max > 200_000:
-                lines.append(f"- ⚠ Студент с доходом {stud_max:,} ₽ — модель не связала поля".replace(",", " "))
-        lines.append("")
+    lines.append("## Спорные комбинации\n")
+    lines.append(
+        "- **Учитель + Финансовый учет и налогообложение** — возможно при смене "
+        "карьеры, но без пояснения выглядит менее естественно, чем курс по методам обучения."
+    )
+    lines.append(
+        "- **Медицинская сестра + Управление проектами** — реалистично для старшей "
+        "медсестры, но для рядовой клинической роли нужен дополнительный контекст."
+    )
+    lines.append(
+        "- **Инженер + Финансовый учет и налогообложение** — возможно для руководителя, "
+        "но похоже на слабую связь между специальностью и курсом."
+    )
+    lines.append("")
 
     Path(out).write_text("\n".join(lines), encoding="utf-8")
 
@@ -171,24 +148,19 @@ def main(path: str = "personas.json"):
 
     plot_hist_ages(df, "ages.png")
     c = plot_bar(df["city"], "Распределение по городам", "cities.png", "#7AB66E")
-    o = plot_bar(df["occupation"], "Распределение по профессиям", "occupations.png", "#D97A4A")
-    plot_income_by_occupation(df, "income_by_occupation.png")
+    s = plot_bar(df["speciality"], "Распределение по специальностям", "specialities.png", "#D97A4A")
     write_report(df, "report.md")
 
     print("\nСохранено:")
-    for f in ("ages.png", "cities.png", "occupations.png",
-              "income_by_occupation.png", "report.md"):
+    for f in ("ages.png", "cities.png", "specialities.png", "crosstab_city_speciality.csv", "report.md"):
         if Path(f).exists():
             print(f"  - {f}")
 
     print(f"\nТоп-город: {c.index[0]} ({c.iloc[0]}/{len(df)})")
-    print(f"Топ-профессия: {o.index[0]} ({o.iloc[0]}/{len(df)})")
-    print("\nДальше — открыть report.md и обсудить с группой:")
-    print("  - где collapse, какое поле «слиплось» сильнее всего?")
-    print("  - есть ли нереалистичные комбинации в кросс-таблице?")
-    print("  - модель связывает доход с профессией или генерит независимо?")
+    print(f"Топ-специальность: {s.index[0]} ({s.iloc[0]}/{len(df)})")
+    print("\nДальше — открыть report.md и обсудить нереалистичные комбинации.")
 
 
 if __name__ == "__main__":
-    path = sys.argv[1] if len(sys.argv) > 1 else "personas.json"
+    path = sys.argv[1] if len(sys.argv) > 1 else "applications.csv"
     main(path)
