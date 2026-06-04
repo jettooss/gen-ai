@@ -1,0 +1,42 @@
+{
+  "fixed": [
+    "ads",
+    "design",
+    "performance",
+    "price",
+    "reliability",
+    "support"
+  ],
+  "dynamic": [
+    "app_functionality",
+    "content_quality",
+    "customer_service",
+    "monetization",
+    "performance_issues",
+    "privacy_concerns",
+    "subscription_model",
+    "technical_support",
+    "update_issues",
+    "user_interface"
+  ],
+  "new_dynamic_topics": [
+    "app_functionality",
+    "content_quality",
+    "customer_service",
+    "monetization",
+    "performance_issues",
+    "privacy_concerns",
+    "subscription_model",
+    "technical_support",
+    "update_issues",
+    "user_interface"
+  ],
+  "missing_fixed_topics": [
+    "ads",
+    "design",
+    "performance",
+    "price",
+    "reliability",
+    "support"
+  ]
+}

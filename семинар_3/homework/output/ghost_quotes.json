@@ -1,0 +1,23 @@
+{
+  "initial": [
+    {
+      "review_id": "app01-review015",
+      "app_name": "net.wargaming.wot.blitz",
+      "aspect": "reliability",
+      "quote": "the 'match maker' (an algorithm) does not match players and tanks fairly, and so, many game outcomes are largely predetermined if you are going to win or lose."
+    },
+    {
+      "review_id": "app05-review020",
+      "app_name": "com.thumbtack.pro",
+      "aspect": "design",
+      "quote": "Add the 'wrong category selection' return category!"
+    },
+    {
+      "review_id": "app05-review020",
+      "app_name": "com.thumbtack.pro",
+      "aspect": "performance",
+      "quote": "Filters in 'Opportunities' don't work correctly!"
+    }
+  ],
+  "unresolved": []
+}

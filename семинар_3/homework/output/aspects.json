@@ -1,0 +1,2030 @@
+[
+  {
+    "review_id": "app01-review001",
+    "app_name": "com.lyft.android.driver",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "actual help for a Driver , a complete waste of time",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Account DEacttivated. didn't know why it took me three days to find out the reason",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review002",
+    "app_name": "com.freestylelibre2.app.us",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "neutral",
+        "quote": "I have had little problem getting my readings, the sensor works",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "support",
+        "sentiment": "positive",
+        "quote": "calling the Libre hot line always results in a new sensor being sent to me",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "I do not like this app however, it is probably a good start but if user control doesn't improve, I plan to move on",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review003",
+    "app_name": "com.sonypicturestelevision.myheroacademia",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "Minimum cost of a new hero is $266.50 but that hero is handicapped and cannot use all skills",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "The game itself is loaded with game breaking bugs and lag which actually get worse with each update",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "Support is non-existent as you can guess by the bot replies to every valid negative review",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review004",
+    "app_name": "com.global.ztmslg",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "However, there are powerful heroes and equipment that cannot be earned in game. You have to buy them",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "An absolute joke. They brush off questions/concerns, and even wave off screenshot evidence",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review005",
+    "app_name": "com.plarium.raidlegends",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "You will never complete end game content unless you spend $20,000 in real money or more",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "neutral",
+        "quote": "The game feels more like a 2nd full time job than a recreational activity at this point",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review006",
+    "app_name": "com.apple.movetoios",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "The support and instructions for this is just as bad.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "The tech at the shop told me they have never been successful in this app working its way to completion.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review007",
+    "app_name": "epic.mychart.android",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "There are also very stupid mistakes in the design like not removing the 'Dr.' or 'nurse' when sorting names of doctors.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "There is no link to tech support from Epic anywhere.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Information is never correct in this system for my 98 year old mother!",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review008",
+    "app_name": "com.asmodeedigital.terraformingmars",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Load times become obstructively longer as games progress, leading load times to completely eclipse time spent playing the game, making the game a bloated timesink and far less desirable to play.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "It prohibitively challenging to determine whether there are 1 or 2 steps to the temperature tracker rewards due to the placement of the number.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review009",
+    "app_name": "com.delta.mobile.android",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "During a trip, the app frequently shows notices and delays that are inaccurate and confusing.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "It is buggy, for example in Detroit all the sudden it wouldn’t log me on and then locked me out saying I had to call customer support.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review010",
+    "app_name": "com.outdooractive.Outdooractive",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "OA has made it hard to have the mobile device acquire GPS signal.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "The on-the-hike elevation profile is beyond buggy - it is not trustworthy.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "GUI is very non-intuitive and typical users would likely develop carpal syndrome by over-clicking.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "Even looking for tool support is nearly impossible in direct email from the App.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review011",
+    "app_name": "com.eharmony",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "the worst customer help service I have ever encountered!",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "Essentially I had been charged an extortionate amount for a email which is worthless to me",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review012",
+    "app_name": "com.pandora.android",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Constantly requires restart, often doesn't respond to headphone button input (play/pause).",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "It's like the UI devs had a few good ideas and then phoned in developing the rest of the feature set.",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review013",
+    "app_name": "com.affinityapps.twozerofour",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "the app is NOT free. You can download it, create your profile and even see other peoples' profiles but there is ZERO way to contact anyone without paying",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review014",
+    "app_name": "com.kingsgroup.sos",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "Spending $100/week doesn't allow you to compete. You have to spend really heavy to compete in this game or you get run over.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review015",
+    "app_name": "net.wargaming.wot.blitz",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "You make hardly any credits playing this game, unless you purchase a premium account (and yes, this costs actual money).",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "They have the WORST customer service I have every experienced.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review016",
+    "app_name": "com.square_enix.android_googleplay.nierspww",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Gameplay is too grindy.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "PVP is a dumpsterfire due to the recent changes.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review017",
+    "app_name": "com.cbs.ott",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "The UI sucks. Bad.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "ads",
+        "sentiment": "negative",
+        "quote": "Ad-Free is packed with ads!",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "Find help, see the chat button, click. Wait. Click. Wait. Nothing. Repeat many times. Nothing.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review018",
+    "app_name": "gov.wa.doh.exposurenotifications",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "neutral",
+        "quote": "There's just not enough diagnostic information included to make an informed decision.",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "The default settings seem to be to lower false negatives, whereas I want something that lowers false positives.",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review019",
+    "app_name": "com.planetfitness",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "There is no way to preview the workouts.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "price",
+        "sentiment": "neutral",
+        "quote": "It also seems a bit discriminatory because not everyone who belongs to a $10-a-month gym is going to even own a smartphone or own one that has enough space to keep adding apps.",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review020",
+    "app_name": "com.sling",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "An unmitigated UI/UX nightmare.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "The DVR is harder to manage now.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review001",
+    "app_name": "com.ants360.yicamera.international",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Viewing cameras with WIFI is iffy at best. My WIFI is excellent, but the cameras keep dropping to zero constantly.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "App continues to crash. Always trouble finding network. My network is excellent.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "The UI 'improvement' of this latest update (9/13/21) is horrible.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review002",
+    "app_name": "com.reliancegames.wwemayhem",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "I would like to report how the recent update to the game WWE Mayhem have made the game buggier and laggier than usual.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "neutral",
+        "quote": "I have already emailed support and received a ticket but will be awaiting their response.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review003",
+    "app_name": "co.thefabulous.app",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "neutral",
+        "quote": "You get reminders, and they are colorful, animated, and poetic.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "I'm not 6, and I don't need a man voice I've never interacted with, only showing up to tell me I'm failing.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review004",
+    "app_name": "com.sygic.aura",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "The latest update broke this completely.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "It also crashes on start every now and then now (didn't used to).",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "The Graphics lacked colours and the 3D buildings after the update.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review005",
+    "app_name": "com.gameduchy.jdzd.en",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "This is yet another gatcha game made by greedy and stingy developers.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "neutral",
+        "quote": "I had a situation with another game that required Customer Support to check my account.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review006",
+    "app_name": "com.apple.movetoios",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Move to iOS does not work.",
+        "confidence": 0.99
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "It seriously prohibits users switching from Android to iOS.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "It also really hurts Apple's time-honored reputation of 'it just works'.",
+        "confidence": 0.97
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review007",
+    "app_name": "com.microsoft.teams",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Delay(3-4 seconds) between answering a call and getting audio.",
+        "confidence": 0.98
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Latencies while in a call.",
+        "confidence": 0.97
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "General bad call quality.",
+        "confidence": 0.96
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Ghost calls, you hear the incoming ring but can't pickup because the apps doesn't show the incoming call.",
+        "confidence": 0.98
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review008",
+    "app_name": "com.google.android.apps.dynamite",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "While the UI is cleaner in some aspects a lot of us miss the chat bubbles.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Not everything needs to be a Discord or Slack clone.",
+        "confidence": 0.94
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review009",
+    "app_name": "com.global.ztmslg",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Game constantly glitches, freezes.",
+        "confidence": 0.99
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "I have never seen a game freeze up like this since 2005.",
+        "confidence": 0.98
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "Company knows and doesnt respond to 1000s of complaints on this.",
+        "confidence": 0.97
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review010",
+    "app_name": "com.limeturtle.nexomon",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Very little distinguishes the various 'mon from each other.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "There are only 7 types, one of which is neutral to everything and the other have exactly two strengths and two weaknesses, all symmetrical.",
+        "confidence": 0.96
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Status moves are largely worthless, as most of them are the same and they only make your opponent miss one turn if they succeed.",
+        "confidence": 0.97
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review011",
+    "app_name": "com.espn.score_center",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "positive",
+        "quote": "About the only good thing to say about this app is that it's cheaper this year to watch NHL games this year than last year's NHL+ subscription.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Otherwise this ESPN app should be renamed to 'ERROR RETRIEVING CONTENT', because that's what comes up every time there's a commercial break during the hockey game.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "When it actually works the ESPN app is slow, and manages to get pretty much everything wrong that could be gotten wrong, as far as its user interface.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "I specified which hockey team I follow. Is it too much to expect the app to feature tonight's game up and front, and make it easy to stream the team's telecast in one click?",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review012",
+    "app_name": "com.gamesture.questland",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "If you really want to experience the game, enjoy the music and try to finish the campaign in easy mode, then maybe in hard mode if you're nostalgic about it. Then call it quits, because the endgame is a massive weekly running gag.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "design",
+        "sentiment": "neutral",
+        "quote": "Seule qualité rédemptrice, à mes yeux : la musique du jeu, qui est magnifique.",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review013",
+    "app_name": "com.google.android.apps.books",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "The customer service is horrible.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "I love the books and the interface.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review014",
+    "app_name": "com.outdooractive.Outdooractive",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Absolutely lamentable substitute for Viewranger.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Phone CPU is worse than it was with VR generally, especially if you don't close the app after use.",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review015",
+    "app_name": "com.digitalkingdom.makeover",
+    "aspects": [
+      {
+        "aspect": "ads",
+        "sentiment": "negative",
+        "quote": "And you watch ads. A lot.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "The regular rate is $9.99, and that's definitely NOT a good value.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "The mechanics are good and the designs are mostly good.",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review016",
+    "app_name": "com.google.android.apps.fitness",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "This is not how I expect a fitness app to work.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "I think it is ridiculous that to retain my owned achievements I have to go in and manually adjust the record.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review017",
+    "app_name": "com.lifescan.reveal",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "They didn't show up in the app. Nada.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "So I don't know if I just haven't been waiting long enough, if I need to disconnect my fitness band, or if I need to randomly fool with bluetooth settings.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review018",
+    "app_name": "com.ovelin.guitartuna",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "Unfortunately, you can't just buy the app. Nope, you will pay 5 bucks a month forever, in order to have the ability to use the pro version.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review019",
+    "app_name": "com.kingsgroup.sos",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "DO NOT bother to play this game unless you are willing to spend over $1000 and possibly thousands to upgrade and grow.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "The new content is constantly recycled with new shine but same old tired gameplay.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review020",
+    "app_name": "com.quadpay.quadpay",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "Contacted support, was told I can't because another customer signed up in the past with this phone number, their account still exists, and two accounts can't have the same number.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "In other words, I will never be able to get a verification code texted to me to log into the app because my new number isn't connected to my account, and I no longer have access to my original number I signed up with, and therefore I can never create a new order with this service.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review001",
+    "app_name": "me.greenlight",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "positive",
+        "quote": "To their credit, customer service was quick to get back to me and they let me know that the standard card was automatically ordered.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "Not only the upsell of trying to get you to sign up for various higher cost plans that include investments (so many push notifications until disabled!)",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "This is clearly designed to TRICK YOU into getting the customized card.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review002",
+    "app_name": "com.marvel.unlimited",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "positive",
+        "quote": "The back library's great, the fidelity on the art is excellent, and the price is reasonable.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Unfortunately, a bungled update in early September has made it virtually unusable, with lots of functionality removed and core pieces of the program just simply broken.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "A month and a half later and there continues to be no meaningful communication with the user base beyond promises to fix it in the future.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review003",
+    "app_name": "com.google.android.apps.authenticator2",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "This is the greatest security failure I have ever encountered in my entire life 10 times over for each account it affected.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "How dare you continue to market something that remains so detrimental to the security and safety of anyone tricked into believing it's their safest, most secure option as you ignore the abundance of people whose lives you've put in turmoil when their only mistake was trusting you.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review004",
+    "app_name": "com.vshower.prd_sr",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "The recent state of the game is laughable. It's clear that the dev team probably has ONE person working on this game now.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "They don't care about the quality of the game anymore and are just keeping it alive to continue raking in money from the poor souls who don't yet see the state of the game.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review005",
+    "app_name": "org.kman.AquaMail.UnlockerMarket",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "ANDROID 12 BREAKS THIS APP.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "I reported the below problem and the company has not responded to my steps to reproduce.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review006",
+    "app_name": "com.yum.pizzahut",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "App keeps crashing or stating the store is closed (when it doesn't crash) every time I try to order since my birthday on Sept. 14th.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "When I tried to call them about the issue, they quickly put me hold & left me there until I hung up at 10 PM (almost the entirety of the 1 hour, 10 minute call being on hold, probably less than 10 seconds where I wasn't on hold or going through their automated system to speak to a 'human').",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review007",
+    "app_name": "com.disney.emojimatch_goo",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "However, very quickly, they have turned it into a Pay to Play model.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "ads",
+        "sentiment": "neutral",
+        "quote": "You could watch ads to get additional power-ups, coins and gems.",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review008",
+    "app_name": "com.nexon.bluearchive",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "It has one of the most unique playstyles ever in any gacha I've played.",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "As you may know, the experience players have are inconsistent across platforms.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review009",
+    "app_name": "com.miHoYo.GenshinImpact",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Lightning strikes are not random. While they are not terribly damaging they are skewed to strike near you.",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Swimming is frustrating because the zoning doesnt match up to the terrane.",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Co-op is not great. You cant get help with about half the quests.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review010",
+    "app_name": "com.poshmark.app",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "I explained the situation to Poshmark; the representative said they would refund me. (I am still waiting on that.)",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Poshmark failed to authenticate the boots both times; both USPS postal workers let people sign for the packages at the wrong residence on the right street.",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review011",
+    "app_name": "com.miHoYo.GenshinImpact",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "miHoYo needs to put a team together specifically for listening to complaints and criticism.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Need increased energy caps or energy regen rate improved.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "high cost for character wishing especially compared to rewards if not spending large amounts of cash.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Insanely low drop rate for decent artifacts.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review012",
+    "app_name": "com.doordash.driverapp",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "I had to talk to two different support agents that told me two different things.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "if your app glitches so hard it glitches while trying to display what glitch it had, you need to frigging fix it.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "their pay system makes absolutely zero sense.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review013",
+    "app_name": "com.ea.gp.fifamobile",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Gameplay is very janky, slow, tedious, and all in all, not fun.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "New recommended section in the Transfer Market zone would've been a great addition if it wasn't for the fact the section doesn't show you affordable players.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "Game is still wildly pay to win, but this was expected as it is an EA sports game.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review014",
+    "app_name": "com.plarium.mechlegion",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "They want to trick people into paying money for it once they are committed to playing.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Pilots broke any balance this game once had.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review015",
+    "app_name": "com.medium.reader",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "neutral",
+        "quote": "I received a response from support the next day, and they're response was 'unfortunately, the app editor is more limited than the desktop editor and some of the things you are trying to achieve are not currently possible.'",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "It wasn't long before I saw the application lacked seemingly basic features.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review016",
+    "app_name": "com.bethsoft.falloutshelter",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "I think it has a good concept and great graphics",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review017",
+    "app_name": "com.xoom.android.app",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "I contacted Cust service by email, their response was a 1 line template saying we checked and it's working, try again, hahaha",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Absolutely horrid product, service, app, etc.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review018",
+    "app_name": "com.nianticlabs.pikmin",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Connectivity issues are reduced but still there, and are mainly caused by the 'game' itself, it makes the device lag so much that the phone loses connectivity",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "Not only the performance is trash, they think their players are stupid with the ridiculous amount of coins given for free when you consider what you can buy with them and how much they cost",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review019",
+    "app_name": "fr.vinted",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "I think a monkey wrote the selling/buying page. Sorry monkey - you might be cute, but you do not know how layout a page with useful information",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "And Customer Support will just say 'we're right - you're wrong -- too bad' if you attempt to disagree with them",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review020",
+    "app_name": "com.bandainamcoent.tensuramrkww",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "However I had technical issue the entire way, crashing, graphics glitches, and simple menus would frequently break",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "I contacted customer support, spent 3 hours filling out an overly long forum, only to have to wait almost a month for them to tell me they couldn't do anything",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review001",
+    "app_name": "com.YoStarEN.Arknights",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "The gameplay was barely interesting enough but very, VERY repetitive and with level caps gating every stage, with upgrading taking weeks upon months just to be able to beat the next few stages.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Such an utterly horrible and detrimental mechanic, that I assume was just implemented for the chance the stage fails, which can happen by the way, to incentivize the player to spend money to make their units stronger, or just plain sadism, which after playing some stages, there's definitely plenty of that.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review002",
+    "app_name": "com.survival.last",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "lost everything at besieged house of all places my death due to green injection not working then the game not loading fast enough to get back in time yesterday i had a roll back on progress made and had to redo the whole gas station lost a mysterious basement and a trader so the game has been screwing me over the past few days i think losing items to buggy system has to be the most heart breaking thing",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "do not waste money on this game although good the mechanics to make you lose your items so you have to buy is ridiculous",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review003",
+    "app_name": "com.nianticlabs.pikmin",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "WARNING: INSTALL THIS APP ONLY IF YOU ARE OKAY WITH: MISSING NOTIFICATIONS FROM YOUR HOME SECURITY SYSTEM, NOT RECEIVING AMBER ALERTS, NOT RECEIVING TEXT MESSAGES, HAVING ALARM CLOCKS WAKE YOU UP LATE OR NOT AT ALL, COME HOME TO FIND YOUR DOOR UNLOCKED WHEN YOUR PHONE AUTOMATICALLY LOCKS IT WHEN YOU LEAVE, OR ARE WILLING TO SPEND HOURS WIPING YOUR DEVICE AND SETTING UP AGAIN TRYING TO FIGURE OUT WHY NOTHING IS WORKING LIKE IT USED TO.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review004",
+    "app_name": "com.herocraft.game.free.spaceshipbattles",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "neutral",
+        "quote": "This game is ok, it is fun, and runs well.",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "The game currency is not balanced for the value of money you spend at all. 3.99 will get you 100 currency, and something just like an extra hanger can cost 250 and over. That is almost $10 for nothing, something with no actual value.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "ads",
+        "sentiment": "neutral",
+        "quote": "If you want to remove ads you buy a currency pack, I find that fair and have purchased 2 packs before, but honestly the value of your money into the game is not worth it.",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review005",
+    "app_name": "com.igg.android.dressuptimeprincess",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Since I first started playing, there have been numerous updates overhauling the UI and assets, and each time, they've gotten harder to navigate, lesser in quality, and - sorry to say - uglier.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review006",
+    "app_name": "com.phonevalley.progressive",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "They first tried to deny that they were at fault. I was contacted by multiple phone number via text that looked like scam with this company.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "I then had to call them waiting on the line for hours learning that it actually was them!",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "This claim took more than 45 days!!!!",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review007",
+    "app_name": "com.nexon.bluearchive",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "The art is gorgeous, the gameplay is fun, the writing is entertaining, skip tickets are unlimited, and the devs are generous.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Equipment drop rates are awful - you'll spend hundreds of energy to only get a single drop of gear (mainly t3-t5).",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Banner rates feel really, really bad - rate up characters hardly have any drop priority, and with the spark at 200, you can easily dump your entire pyroxene stash on a single character.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review008",
+    "app_name": "com.honeywell.android.lyric",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Constantly disconnects from the thermostats.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Thermostats sometimes completely de-register from the app and need to be re-added.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "You have to log in TWICE every time you use it. You open the app, put in your pin, and the screen immediately reloads asking for your pin again.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review009",
+    "app_name": "com.outdooractive.Outdooractive",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "The UI when navigating - in cold or wet weather, particularly with gloves, you don't want to be trying to pinch the screen to zoom in an out.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "OA seems to stop navigation/recording when minimized for long periods.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "With OA it seems to lose everything when re-opened whilst VR records without fail.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review010",
+    "app_name": "com.devsisters.ck",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "A lot of the items you need to help make the kingdom grow (the aurora items) are locked in the wishing tree or the train. Or if you have money you can buy them at $19.99 or more.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Gameplay wise it is very long and grindy.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "The community has been telling Devsisters all of this for a long time now but we are always unheard or ignored.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review011",
+    "app_name": "com.walmart.android",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "The app used to be very good but as of an update last month (September 2021) it won't even start up without wanting to turn on location services which is already on and permission given for the app to use it.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "It gives an option to use my zip code but that as well as the location services notice just pop up an error saying 'We are having technical issues'.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review012",
+    "app_name": "com.plarium.mechlegion",
+    "aspects": [
+      {
+        "aspect": "ads",
+        "sentiment": "negative",
+        "quote": "But the main issue is how this game will throw ads in your face to try and make you spend money.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "Oh and good luck being competitive without spending money.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "The gameplay is honestly pretty solid, even if it could use a few balance updates.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review013",
+    "app_name": "com.resmed.myair",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Just started using the app but my first impressions are that the app is mediocre at best and lacks (what should be obvious) common sense features and functionality.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "What is probably worse however, is the lack of security (spoiler).",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review014",
+    "app_name": "air.com.beachbumgammon",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "You now go from spending .99 - 4.99 to 13.99 - 18.99 for the same packages.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "The graphics and different types of games are fun, however!!",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "I also think the dice are fixed in this game.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review015",
+    "app_name": "io.metamask",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "They refuse to respond I've been through the entire help section and nothing that works, and their non human auto response regurgitates the same info from the forums ignoring my issue.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Complete Scam in my opinion. Trying to access thousands of dollars I have locked away, have the correct 12 word phrase, now they are dodging questions and saying I need a mystery private key I was never told to save.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review016",
+    "app_name": "com.qustodio.family.parental.control.app.screentime",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "We have had Qustodio for 2 years now and wish that it were better than it is, especially for the annual cost.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Our three main issues with the app are: 1) The inability to filter text messages.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "2) No MMS monitoring.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "3) We have 3 phones on the plan. 1 of them we can see all the contact information on calls and texts. 2 phones we can only see phone numbers.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review017",
+    "app_name": "com.tuya.smartlife",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "However, for the past 3 months or so, the App has been having terrible LAG issues, when operating the GUI (using the App to turn ON/OFF devices).",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "For instance, no matter what the device is (smart plug, smart bulb, etc...), when pressing \"ON\" or \"OFF\", it can take up to 30sec or even 1min to actually react and to update accordingly in the GUI",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review018",
+    "app_name": "com.global.ztmslg",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "Unless you want to spend a lot of money, you will get attacked by much bigger players, resulting in all your troops being killed.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "Expect to spend $50/month at a minimum to make progress.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "Very attractive game and it is fun, but it very much is a money grab.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review019",
+    "app_name": "com.mcdonalds.app",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "If you want the crispy chicken sandwich with pickles you can't get it with tomatoes and lettuce, or vice versa.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Oh, did you want mac sauce on your quarter pounder? Too bad, we've arbitrarily decided you can't do that.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Wanna order on your phone and send your wife to pick it up after work? Nope, gotta press a button on your phone to confirm you're there.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Here's a ten digit code so they can pick up the food. Because that's user friendly. Oh, you can't copy it either.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Scheduling orders for later? What do you think this is, Taco Bell?",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Also, if you want rewards or deals when you're getting delivery, better go to Wendy's because this one? No, that's too complicated.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "I couldn't even USE this app for like 3 months, it's actually enough of a hassle that by this point I've just stopped eating McDonald's entirely.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review020",
+    "app_name": "fm.dice",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "I would not use Dice again as they are selling tickets for companies like Klub Verboten who , in my opinion are operating unethically.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Klub Verboten are selling tickets - scanning them and then kicking the clients out for no reason:",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "We went to 5 years verboten a couple of weeks ago and were refused entry along with many others for no reason whatsoever.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "I don't know if they are overselling tickets or what is going on but it is pre meditated.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Outside we found a constant stream of mystified people trying to work out why they had been removed.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "For the 10 minuets we were there we saw 30 people that had been ejected, so the total number over the hours it took to enter the club must have been large.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "People who read their t's and c's will note that they say they can kick who they like out -naturally a normal person would assume that this is reserved for trouble makers and to be expected but it is nothing like that.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "People spend a lot of money on transport and hotels to attend and to have their night and money disposed of with the obvious pleasure of the organisers is really distasteful.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review001",
+    "app_name": "com.getmimo",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "positive",
+        "quote": "great value for money",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review002",
+    "app_name": "com.im30.ROE.gp",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "neutral",
+        "quote": "lots of colors, lots of content but a lot of no real use",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review003",
+    "app_name": "com.bandainamcoent.toluminaria_en",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "the odd pinterest style home screen that actually feels super unorganized",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "the camera and battle system really are the lowest points of this game for me",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review004",
+    "app_name": "com.coolkit",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "PUSH NOTIFICATIONS are a great, not to say *enormous*, PROBLEM/BUG",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "guess R&D of CoolKit Technology has to spend more time to understand how Android OS works",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review005",
+    "app_name": "com.barkinglabs.fi",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "I finally tried to contact support. That was an extremely quick conversation",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "For what the collar and the subscription costs this collar is not worth the price",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review006",
+    "app_name": "com.yelp.android",
+    "aspects": [
+      {
+        "aspect": "ads",
+        "sentiment": "negative",
+        "quote": "I had an ad run in April of 2020 and another from October to December 2021. No difference in April of 2020, but a lot of \"clicks\" in October and November.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "First time using them a year ago spent $324 in a month and I had 6 leads I did business with one and it was a wash on face value but lost money because of operational costs.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "First words out of a lady's mouth O You were supposed to do all of that yourself because you're not paying for it....I said then what am I being charged for?",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review007",
+    "app_name": "com.kingsgroup.sos",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "However, practically every step you take on it requires an in game purchase.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "After buying the Perk it still would let me do it.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review008",
+    "app_name": "com.square_enix.android_googleplay.WOTVffbeww",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "I can't stress to you how GREEDY and STINGY Square Enix is when it comes to their mobile games.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "I made so many pulls that I filled the mileage gauge to 100% three time on one banner and once on another so that's 4 gauges filled to 100% and I got none of the FF XV units.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review009",
+    "app_name": "com.os.space.force.galaxy.alien",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "The only way to obtain blue gems is to purchase them with hard earned cash or getting just a few by watching lots of adds or playing Hunter or Adventure modes.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "They have really bad customer service. In my experience they will not address the questions I asked and they do not provide a phone number to call.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review010",
+    "app_name": "com.playrix.township",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Then they started focusing on mini games. Now to get good decor you have to grind through these horrible non-township related mini games.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "Support has been useless, they just say \"we'll pass it along\" but nothing ever changes.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review011",
+    "app_name": "com.square_enix.android_googleplay.FFBEWW",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "It became too p2w and challanging that will put off casual gamers!",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Lastly the memory storage is a lie. What you see at this game is NOT the total memory storage you will need. Everytime you access to a stage and cutscene in season 1-3 will increase the sixe little by little until it become over 8GB! Like WTH that is some poor optimizing!",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review012",
+    "app_name": "com.ford.fordpass",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "Call for support? Get a ticket? I have a ticket from 7/2 that has never been acted on. I'm rather slice off my hands than call for support, get routed to India, a bunch of \"Mr. Rick\" and guidance that's not correct.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "3.33.0 makes the phone totally unresponsive. Can't do basic functions. Needs tons of work.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review013",
+    "app_name": "com.marvel.unlimited",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "neutral",
+        "quote": "Being able to filter your library with titles that you want to see, sure, is a great functionality. However, the filter feature still is lightyears away.",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review014",
+    "app_name": "com.zellepay.zelle",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "I called up to get my account unlocked which was not too much of a hassle, but I was unable to switch my debit card on file. Like many others have said, the representatives just read from a script and have no clue how to answer any of your legitimate questions.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "price",
+        "sentiment": "neutral",
+        "quote": "The good news, at least for myself, is that it is free and works instantly. The bad news is that the weekly sending limit is only $500.",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review015",
+    "app_name": "com.google.android.apps.youtube.music",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Core features that should be functional are not. The auto play is never truly disabled, instead when an album ends YTM seems to randomly decide from the top 100 what to play next, often doesn't even match same genre I was listening to.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Songs cannot be reordered in the app, users must use youtube on desktop to change the order of songs in their playlist.",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review016",
+    "app_name": "com.diune.pictures",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "It lost 1/4 of the pix, never to be seen. Tried to find them via a file management program, and they are truly gone.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "Very sad to see what has become of such an elegant app.",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review017",
+    "app_name": "co.feeld",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "The app developers do NOT CARE about user privacy, and for a month the support team have not responded to my emails explaining I cannot log in.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Feeld literally leaked my discrete photos.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "Currently I'm paying for a service that is expensive and leaks my sensitive photos to total strangers.",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review018",
+    "app_name": "com.zellepay.zelle",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "Customer service on this particular incident, in my opinion, was nothing more than a person reading a script to move me through the system to get to the next person.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "I called customer service and they said I had been flagged for suspicious activity and misuse and there was nothing I could do and nothing they could or would do.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review019",
+    "app_name": "se.illusionlabs.skate2",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "To my horror,and surprise,my phone got stuck. The problem went on for about a month.",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "The graphics are wrong.",
+        "confidence": 0.8
+      },
+      {
+        "aspect": "ads",
+        "sentiment": "negative",
+        "quote": "The purchases make the game seem ore like a stupid shopping mall that wont allow you to move unlesss you see a sponsored advert or you buy something with money.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review020",
+    "app_name": "com.thumbtack.pro",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "neutral",
+        "quote": "Make the base prices of the Pro more visible to the Customers.",
+        "confidence": 0.8
+      }
+    ]
+  }
+]

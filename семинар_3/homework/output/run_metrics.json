@@ -1,0 +1,17 @@
+{
+  "totals": {
+    "model": "deepseek/deepseek-chat",
+    "calls": 62,
+    "prompt_tokens": 217159,
+    "completion_tokens": 47341,
+    "cost_rub": 8.537,
+    "cost_usd": 0.0949,
+    "input_sources": 5,
+    "estimated_input_tokens": 56882,
+    "valid_reviews": 100,
+    "initial_ghost_quotes": 3,
+    "unresolved_ghost_quotes": 0,
+    "judge_overall_score": 0.875,
+    "metrics_scope": "Обязательный pipeline.py. Бонусный прогон выполнен отдельно."
+  }
+}

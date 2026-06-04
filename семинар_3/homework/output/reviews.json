@@ -1,0 +1,2617 @@
+[
+  {
+    "review_id": "app01-review001",
+    "app_name": "com.lyft.android.driver",
+    "rating": 2,
+    "review_date": "2021-11-20",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Lyft has absolutly no respect for the Driver who put food on their table, fact is the Drivers are the back bone of any Riode share which includes Lyft."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "SAFeTY I was told was the reason after wasting so much of my time without any notice or warning my driver'r rating from Passengers was always FIVe STARS. until the day I found out when getting ready to go on line & Volunteer for those who really need to get somewhere just like the woman I took to the HOspital Crying about her Mom (that ride meant millions to me)' Some one I am still unaware of clicked and that was it Account DEacttivated."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review002",
+    "app_name": "com.freestylelibre2.app.us",
+    "rating": 4,
+    "review_date": "2021-12-29",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Remove the limitation of user controls for sound, vibration, range limits, etc."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Make the alarms easier to dismiss."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Along the same lines of making it easier to dismiss, make the dismiss button easy to get to (foreground) and then don't keep turning the alarm on every minute."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Allow the alarms to be vibration as an option."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Allow users to turn on/off the ultra low alarm or at least be able to set the range."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review003",
+    "app_name": "com.sonypicturestelevision.myheroacademia",
+    "rating": 2,
+    "review_date": "2021-12-01",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "Minimum cost of a new hero is $266.50 but that hero is handicapped and cannot use all skills."
+      },
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "Full upgraded hero is $3,486.80 WITHOUT CARDS."
+      },
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "Total cost for fully upgrading both support cards is $4933.60."
+      },
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "Fully upgraded new event hero cost: $8420.40."
+      },
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "Average monthly cost to play without drawing for newly released units: about $400."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "The game itself is loaded with game breaking bugs and lag which actually get worse with each update."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Support is non-existent as you can guess by the bot replies to every valid negative review."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review004",
+    "app_name": "com.global.ztmslg",
+    "rating": 3,
+    "review_date": "2022-01-09",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "The story drops, and starts over at a harder version of level 1."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "There are some weird bugs in the rally system."
+      },
+      {
+        "category": "price",
+        "severity": 4,
+        "quote": "However, there are powerful heroes and equipment that cannot be earned in game. You have to buy them."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "An absolute joke. They brush off questions/concerns, and even wave off screenshot evidence."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review005",
+    "app_name": "com.plarium.raidlegends",
+    "rating": 5,
+    "review_date": "2021-12-19",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "You will never complete end game content unless you spend $20,000 in real money or more."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "The quests take over and hour a day and events are generally 2 week cycles that take up to 7-8 hours a day to do."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "And to make it worse those are the only people this company really cares about."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review006",
+    "app_name": "com.apple.movetoios",
+    "rating": 5,
+    "review_date": "2021-11-27",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "The support and instructions for this is just as bad."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "The tech at the shop told me they have never been successful in this app working its way to completion."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review007",
+    "app_name": "epic.mychart.android",
+    "rating": 5,
+    "review_date": "2022-01-11",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 4,
+        "quote": "It's not super simple to use and plan on spending quite a bit of time learning it."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "There is no link to tech support from Epic anywhere."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Information is never correct in this system for my 98 year old mother!"
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review008",
+    "app_name": "com.asmodeedigital.terraformingmars",
+    "rating": 3,
+    "review_date": "2021-12-08",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Load times become obstructively longer as games progress, leading load times to completely eclipse time spent playing the game, making the game a bloated timesink and far less desirable to play."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "It prohibitively challenging to determine whether there are 1 or 2 steps to the temperature tracker rewards due to the placement of the number."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review009",
+    "app_name": "com.delta.mobile.android",
+    "rating": 4,
+    "review_date": "2021-12-18",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "can’t see where flights come from; check-in with KLM and can’t track bags."
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "During a trip, the app frequently shows notices and delays that are inaccurate and confusing."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review010",
+    "app_name": "com.outdooractive.Outdooractive",
+    "rating": 4,
+    "review_date": "2021-12-31",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "OA has made it hard to have the mobile device acquire GPS signal."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "The on-the-hike elevation profile is beyond buggy - it is not trustworthy."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review011",
+    "app_name": "com.eharmony",
+    "rating": 3,
+    "review_date": "2022-01-17",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "Essentially I had been charged an extortionate amount for a email which is worthless to me and I have now means to even use it as they put me back on a basic account because I dared to request a refund within 24 hrs of it being made and not even been used then or since."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Fair and honest people need to be warned of this company's extortionate practices and the worst customer help service I have ever encountered!"
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review012",
+    "app_name": "com.pandora.android",
+    "rating": 4,
+    "review_date": "2021-12-07",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Inability to manage playlists is unacceptable. It's not possible on the app, web interface, or desktop application."
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "Music continues to become unavailable, only available in radio mode, or censored - all seemingly at random."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review013",
+    "app_name": "com.affinityapps.twozerofour",
+    "rating": 4,
+    "review_date": "2021-10-29",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "First things first, the app is NOT free. You can download it, create your profile and even see other peoples' profiles but there is ZERO way to contact anyone without paying, and you have no way of seeing anything about the people that have liked your profile until you pay, all you know is the total number of people that liked your profile."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review014",
+    "app_name": "com.kingsgroup.sos",
+    "rating": 4,
+    "review_date": "2021-12-20",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "This game is more than just pay to play. Spending $100/week doesn't allow you to compete. You have to spend really heavy to compete in this game or you get run over."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review015",
+    "app_name": "net.wargaming.wot.blitz",
+    "rating": 2,
+    "review_date": "2021-11-14",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 4,
+        "quote": "You make hardly any credits playing this game, unless you purchase a premium account (and yes, this costs actual money)."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Finally, if you ever have a problem and need help from the company to get it resolved, they are very RUDE! They have the WORST customer service I have every experienced."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review016",
+    "app_name": "com.square_enix.android_googleplay.nierspww",
+    "rating": 3,
+    "review_date": "2021-11-07",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Gameplay is too grindy."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "PVP is a dumpsterfire due to the recent changes."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "The battle mechanic is... different. Your character auto attacks regardless of your input. Your only 'choice' is to decide when you activate their weapon/character/companion skills."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "The gameplay is VERY grindy as mentioned by others."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "PVP is sort of necessary because it allows you to consistently obtain very rare materials to build the OP weapon/character that you want each season. But the PVP aspect in season 3 changed for the worse."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review017",
+    "app_name": "com.cbs.ott",
+    "rating": 3,
+    "review_date": "2021-10-11",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "They've added a completely useless 'What do you want to watch' screen which sometimes shows up when you start the app, sometimes doesn't."
+      },
+      {
+        "category": "design",
+        "severity": 4,
+        "quote": "The UI sucks. Bad. The 4-way (arrow) buttons will ONLY skip 10 seconds in either direction (tho you can hold down to skip many times)."
+      },
+      {
+        "category": "design",
+        "severity": 5,
+        "quote": "Of more import is the COMPLETE lack of having any sort of bookmarks, watch list, or even remembering where you were if you stop the show for a moment!"
+      },
+      {
+        "category": "ads",
+        "severity": 5,
+        "quote": "Ad-Free is packed with ads!"
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "So I click the Email button. Fill out the form. Do the Captcha. Click send. Nothing. Click send again. Nothing. Repeat many times. Start over, retyping everything again, same result. Change browser and do it all again. Same result."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review018",
+    "app_name": "gov.wa.doh.exposurenotifications",
+    "rating": 4,
+    "review_date": "2022-01-24",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "There's just not enough diagnostic information included to make an informed decision."
+      },
+      {
+        "category": "reliability",
+        "severity": 3,
+        "quote": "I've been getting notifications that people around me haven't been getting. That's led to unnecessary suspicion."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review019",
+    "app_name": "com.planetfitness",
+    "rating": 4,
+    "review_date": "2022-01-09",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "There is no way to preview the workouts."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "They need to add an option to preview and skip through the workout like a regular video, and it should definitely ask after going through a workout if you want to add it to your activity tracker, not just add it automatically with no way to remove it."
+      }
+    ]
+  },
+  {
+    "review_id": "app01-review020",
+    "app_name": "com.sling",
+    "rating": 4,
+    "review_date": "2021-12-04",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 4,
+        "quote": "Program Guide is still unnecessarily colossal, it forgets your preferred view category (Favorites, Sports) half of the time still."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Resume from pause on DVR applies a dark lightbox effect for 10 seconds (about 7 seconds longer than needed)."
+      },
+      {
+        "category": "design",
+        "severity": 4,
+        "quote": "Trying to watch a show that you set to DVR before the recording is complete still sends you STRAIGHT TO LIVE instead of starting from the beginning, or even giving you options to choose from."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "The channel up/down buttons on TVs still no longer work to move channels up and down."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review001",
+    "app_name": "com.ants360.yicamera.international",
+    "rating": 3,
+    "review_date": "2021-12-05",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "Still can't view downloaded videos from Cloud or SD card."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Viewing cameras with WIFI is iffy at best. My WIFI is excellent, but the cameras keep dropping to zero constantly."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Also, YI/KAMI fix the list scrolling. I have 9 of these cameras, it's a pain to have it jump to the top every time you want to view another camera from the list."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "When trying to view a camera, you have to back out and back in before it will load."
+      },
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "Paying for Cloud is useless."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review002",
+    "app_name": "com.reliancegames.wwemayhem",
+    "rating": 5,
+    "review_date": "2021-10-19",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "As of this writing, I am stuck for more than an hour at the loading screen with the message 'Please wait, the game is verifying if you have the required additional assets'."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "During smash attacks, my opponents seem to slip off-screen, then returning to their original position in the next attempt to smash."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "At the start of the match, both player and opponent seem to be invisible for a few seconds but can deal and receive damage."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "At the start of the match, the player character is positioned nearer to the right side of the screen than usual."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "In some cases, the graphics quality is adjusted without notice."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review003",
+    "app_name": "co.thefabulous.app",
+    "rating": 1,
+    "review_date": "2022-01-10",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Additionally, you cannot build weekly sub-routines nor build monthly or quarterly routines."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "What finally got me to uninstall and prompted this review was this scenario I had two days in a row where life had an emergency that overlapped the daily routine I usually did."
+      },
+      {
+        "category": "design",
+        "severity": 4,
+        "quote": "This routine even had a different voice; this was a man telling me I was in the wrong, not the normal friendly lady voice it'd been using."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review004",
+    "app_name": "com.sygic.aura",
+    "rating": 4,
+    "review_date": "2021-10-21",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Well, it used to, but the latest update broke this completely."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "As well, all of the customisable warnings have disappeared to be replaced by discordant beeps."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "It also crashes on start every now and then now (didn't used to)."
+      },
+      {
+        "category": "reliability",
+        "severity": 3,
+        "quote": "It also locks up on startup saying 'Internet connection needed'."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review005",
+    "app_name": "com.gameduchy.jdzd.en",
+    "rating": 5,
+    "review_date": "2022-01-09",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "This is yet another gatcha game made by greedy and stingy developers."
+      },
+      {
+        "category": "reliability",
+        "severity": 3,
+        "quote": "The odds of someone making in app purchases will be higher if they believe the game is fair in it's drop rates."
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "I know this because I had a situation with another game that required Customer Support to check my account."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review006",
+    "app_name": "com.apple.movetoios",
+    "rating": 4,
+    "review_date": "2021-12-13",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Move to iOS does not work. I nearly returned my iPhone due to my horrible experience."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "I got the dreaded 'stuck on preparing screen' error."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "The transfer did not work, so I retried and unchecked 'Messages' from the transfer options."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "This time, the Move to iOS app threw a 'Error during transfer' error after about 20-30 minutes."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "I reinstalled the app and tried again a few times. Same error."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "HOWEVER, only the photos in the 'Camera' folder on the Pixel transferred."
+      },
+      {
+        "category": "reliability",
+        "severity": 3,
+        "quote": "iPhone cannot sync with Google Photos. There is a 'sync favorites', but it's pretty half assed for a syncing solution."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review007",
+    "app_name": "com.microsoft.teams",
+    "rating": 5,
+    "review_date": "2021-12-17",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "Answering a call with a Teams Certified headset, the audio goes through the phone instead of the headset."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "Same issue if you get an incoming cell call while in a Teams meeting. Sounds and mic goes through the phone and completely ignores the BT device."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "Delay(3-4 seconds) between answering a call and getting audio."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "Latencies while in a call. Very annoying because you end up speaking on top of each other."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "General bad call quality. I find myself rather surprised every time I get a good quality call."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "You get a notification for an instant message and you can actually read part of that message in the notification zone but the actual message doesn't show up in the app."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "Ghost calls, you hear the incoming ring but can't pickup because the apps doesn't show the incoming call."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "The apps doesn't really hang up when you press the hang up button at the end of a call."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review008",
+    "app_name": "com.google.android.apps.dynamite",
+    "rating": 5,
+    "review_date": "2022-01-11",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "In group chats (spaces) I can't see who has received/viewed my messages."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "While the UI is cleaner in some aspects a lot of us miss the chat bubbles."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Hangouts supported the use of a url to invite others to your groups as does Discord and other apps... Yet this functionality is seemingly gone now."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "My last gripe is that I cannot set different notifications for different threads on mobile."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review009",
+    "app_name": "com.global.ztmslg",
+    "rating": 3,
+    "review_date": "2021-10-27",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "Game constantly glitches, freezes. I have never seen a game freeze up like this since 2005."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Company knows and doesnt respond to 1000s of complaints on this."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "I sent in a video of my team stacked up to 1.8 million units losing nearly 1 for 1 to a 240k t1s."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Promised compensation for days, for some reason its always an issue when its time to get it, guess what, it didnt come though, they still working on it days later."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Lets discuss the time out issues, and little errors when you recharge; noticed it said purchase failed, I didnt get anything."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "I wrote company, emailed company, days later they stated they didnt get the funds."
+      },
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "As you approach the higher levels, the main offset is hero weapons. Cant buy them, got to take a chance on a chance."
+      },
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "The ones you can control, like the mall, I only had to spend around 2000 over 2 weeks in that one area of the game to get, guess what 6 of those boxes got me, why all purple, lowest possible."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review010",
+    "app_name": "com.limeturtle.nexomon",
+    "rating": 4,
+    "review_date": "2021-11-26",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Very little distinguishes the various 'mon from each other."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Status moves are largely worthless, as most of them are the same and they only make your opponent miss one turn if they succeed."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Stat raising/lowering hardly does anything."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "There are different moves, but they hardly matter, with one exception (to cheese the final boss, which is a seriously terrible fight otherwise)."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "The other one has a terrible catch rate, and the game never tells you how to improve it."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Catching Legendaries is awful; they just appear randomly in the wild, no story or anything, and they seem to have about a 2% catch rate."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Speaking of missing information, the game tells you very little about the moves."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "You also can't check the moves of 'mon in storage, you have to put them in your party."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review011",
+    "app_name": "com.espn.score_center",
+    "rating": 4,
+    "review_date": "2021-12-17",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Otherwise this ESPN app should be renamed to \"ERROR RETRIEVING CONTENT\", because that's what comes up every time there's a commercial break during the hockey game."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "When it actually works the ESPN app is slow, and manages to get pretty much everything wrong that could be gotten wrong, as far as its user interface."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "I specified which hockey team I follow. Is it too much to expect the app to feature tonight's game up and front, and make it easy to stream the team's telecast in one click?"
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "And when the stream starts it tends to glitch for a little while, before things settle down."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review012",
+    "app_name": "com.gamesture.questland",
+    "rating": 1,
+    "review_date": "2021-11-22",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "But Gamesture n'a travaillé que deux choses : les boss du weekend, et les nouveaux équipements qu'ils tentent de vous faire acheter par tous les moyens, sans qu'ils n'apportent grand-chose à la puissance du personnage."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Parce que sans gemmes, pas de répit dans le jeu. Quand bien même, il vous mangera des dizaines de milliers de gemmes, voire des centaines, si vous voulez être compétitif - sur un serveur déserté !"
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "Because yes, the team keeps promising tons of incoming content, and yet it never sees the light of day, because they basically have 40 'marketing directors' and just one developer, widely suspected to be a duck, doing more quacking than hacking."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review013",
+    "app_name": "com.google.android.apps.books",
+    "rating": 5,
+    "review_date": "2021-10-16",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "The customer service is horrible. Their return policy which is cleverly worded so it looks like they do returns but it actually gives them the freedom to deny whatever they see fit."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review014",
+    "app_name": "com.outdooractive.Outdooractive",
+    "rating": 4,
+    "review_date": "2021-10-04",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "Auto-reset at midnight so don't bother attempting for multi-day walks - better planning each day as a route."
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "Also struggling to sync between the app on the phone and the login on the PC."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Absolutely lamentable substitute for Viewranger. If you can't provide the ability to follow a planned/saved route by the time my pro sub renews, I'm searching for a more comprehensive alternative."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review015",
+    "app_name": "com.digitalkingdom.makeover",
+    "rating": 4,
+    "review_date": "2021-11-16",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "The regular rate is $9.99, and that's definitely NOT a good value."
+      },
+      {
+        "category": "ads",
+        "severity": 2,
+        "quote": "The reward is always $300 + a bit more if you pay to play or have to watch an add."
+      },
+      {
+        "category": "design",
+        "severity": 2,
+        "quote": "The beta feeling is because this game is rough around the edges. There are things like the decoration items that just don't have an explanation."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review016",
+    "app_name": "com.google.android.apps.fitness",
+    "rating": 4,
+    "review_date": "2021-12-11",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "But later on, I realized that Google Fit had completely lost the mid-day walk, showing activity before and after that, but with only a few steps of the mile-plus beach walk and hill climb."
+      },
+      {
+        "category": "reliability",
+        "severity": 3,
+        "quote": "Today, I tapped on the Google Fit widget as it displayed 552 steps, and it opened the app to display 405 steps, which is what the widget displayed as I exited. Later on, the widget displayed 95 steps."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review017",
+    "app_name": "com.lifescan.reveal",
+    "rating": 3,
+    "review_date": "2022-01-07",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "They didn't show up in the app. Nada. And no clear evidence whether the app is actually communicating with the meter at that time."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Then I realized that I can only set 'before meal.' I test twice a day: before breakfast ('fasting' - 80-120) and before dinner (ummm ... 'behaving'? - 80-130)."
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "I clicked '+' to tell the phone to connect to the meter - it didn't. I disconnected the phone from my fitness band - still didn't."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review018",
+    "app_name": "com.ovelin.guitartuna",
+    "rating": 2,
+    "review_date": "2022-01-06",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "Unfortunately, you can't just buy the app. Nope, you will pay 5 bucks a month forever, in order to have the ability to use the pro version. Thats insane. Greedy."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review019",
+    "app_name": "com.kingsgroup.sos",
+    "rating": 3,
+    "review_date": "2021-10-10",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "DO NOT bother to play this game unless you are willing to spend over $1000 and possibly thousands to upgrade and grow."
+      },
+      {
+        "category": "design",
+        "severity": 4,
+        "quote": "The new content is constantly recycled with new shine but same old tired gameplay."
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "Copy/Paste replies does not help anyone but thats usually what they will send you."
+      }
+    ]
+  },
+  {
+    "review_id": "app02-review020",
+    "app_name": "com.quadpay.quadpay",
+    "rating": 2,
+    "review_date": "2021-12-23",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "YOU CANNOT USE THIS SERVICE IF ANOTHER CUSTOMER PREVIOUSLY OPENED AN ACCOUNT WITH YOUR CURRENT PHONE NUMBER. CURRENT CUSTOMERS, IF YOU CHANGE YOUR PHONE NUMBER YOU MAY BECOME PERMANENTLY BLOCKED FROM THE SERVICE."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "Contacted support, was told I can't because another customer signed up in the past with this phone number, their account still exists, and two accounts can't have the same number."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review001",
+    "app_name": "me.greenlight",
+    "rating": 4,
+    "review_date": "2022-01-27",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "The signup process is very \"scammy.\""
+      },
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "Not only the upsell of trying to get you to sign up for various higher cost plans that include investments (so many push notifications until disabled!)"
+      },
+      {
+        "category": "design",
+        "severity": 4,
+        "quote": "The bigger issue is the \"standard\" vs \"customized\" card. As you are setting up, every step directs you back to the customized card. There is NO WHERE to set up and order a standard card."
+      },
+      {
+        "category": "design",
+        "severity": 4,
+        "quote": "This is clearly designed to TRICK YOU into getting the customized card."
+      },
+      {
+        "category": "support",
+        "severity": 2,
+        "quote": "I told customer service to please pass along my feedback as this comes across as, at best, an unclear and frustrating system, and at worst, VERY SHADY."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review002",
+    "app_name": "com.marvel.unlimited",
+    "rating": 2,
+    "review_date": "2021-10-20",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "Unfortunately, a bungled update in early September has made it virtually unusable, with lots of functionality removed and core pieces of the program just simply broken."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "A month and a half later and there continues to be no meaningful communication with the user base beyond promises to fix it in the future."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "It's not even remotely okay that after 6 weeks, for example, my read history is still missing and I cannot add a single thing to my library."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "These are giant issues that tons of your users are experiencing, asking people to raise a ticket is NOT an appropriate solution."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review003",
+    "app_name": "com.google.android.apps.authenticator2",
+    "rating": 4,
+    "review_date": "2021-10-19",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "This app permanently locks us out of all of our MOST secure accounts should we lose, break, or restore the device it's on."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "This is the greatest security failure I have ever encountered in my entire life 10 times over for each account it affected."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "You simply haven't because of an extended duration of outright incompetence and flagrant disregard for the security and safety of your users."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review004",
+    "app_name": "com.vshower.prd_sr",
+    "rating": 3,
+    "review_date": "2021-11-29",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "The recent state of the game is laughable. It's clear that the dev team probably has ONE person working on this game now."
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "They don't care about the quality of the game anymore and are just keeping it alive to continue raking in money from the poor souls who don't yet see the state of the game."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "VS apparently miscalculated on distribution of rewards for this event, so many players were able to win a very good amount of rewards/rupees."
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "THEN they offer a \"compensation\" based on attendance that is just atrocious."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review005",
+    "app_name": "org.kman.AquaMail.UnlockerMarket",
+    "rating": 2,
+    "review_date": "2021-12-18",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "ANDROID 12 BREAKS THIS APP."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "The people maintaining the app now do not appear interested in keeping it updated."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "If you depend on the app syncing deleted files with the server on exit, like I have for the past 8 years, this no longer works in Android 12 and they won't acknowledge it, let alone fix it."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review006",
+    "app_name": "com.yum.pizzahut",
+    "rating": 3,
+    "review_date": "2021-11-15",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "App keeps crashing or stating the store is closed (when it doesn't crash) every time I try to order since my birthday on Sept. 14th."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "When I tried to call them about the issue, they quickly put me hold & left me there until I hung up at 10 PM (almost the entirety of the 1 hour, 10 minute call being on hold, probably less than 10 seconds where I wasn't on hold or going through their automated system to speak to a 'human')."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review007",
+    "app_name": "com.disney.emojimatch_goo",
+    "rating": 4,
+    "review_date": "2021-10-27",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "However, very quickly, they have turned it into a Pay to Play model."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Combined with making it extremely difficult to get the special lucky emojis, playing events has become a slog and for most of us, impossible to finish."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review008",
+    "app_name": "com.nexon.bluearchive",
+    "rating": 4,
+    "review_date": "2021-12-17",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 3,
+        "quote": "As you may know, the experience players have are inconsistent across platforms."
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "Your management came up with a follow-up sort of official announcement to sort up these concerns but all they did is to fan the flames - rather than assure the community that their experience is safeguarded."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review009",
+    "app_name": "com.miHoYo.GenshinImpact",
+    "rating": 4,
+    "review_date": "2021-12-31",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "Lightning strikes are not random. While they are not terribly damaging they are skewed to strike near you."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Swimming is frustrating because the zoning doesnt match up to the terrane."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Stun lock. Freeze locks you in place. you have to tap rapidly on the screen to break free. But you can be frozen again quickly."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "The game does not pause in cut scenes. If something nearby could agro you or an environmental effect is ongoing you can die."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Somethings can be approached before you are allowed to interact with it. This means some puzzles can not even be started till you find the right quest but there is no indication of this."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Some quests require you to interact with something like an item in your inventory but it will not tell you this."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "Co-op is not great. You cant get help with about half the quests."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review010",
+    "app_name": "com.poshmark.app",
+    "rating": 2,
+    "review_date": "2021-11-22",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "When I got requested proof of delivery from USPS, I realized my neighbor (from up the street) signed for the package."
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "I explained the situation to Poshmark; the representative said they would refund me. (I am still waiting on that.)"
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "When I again requested the proof of delivery from USPS, I realized her neighbor (from up the street) signed for the package."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review011",
+    "app_name": "com.miHoYo.GenshinImpact",
+    "rating": 4,
+    "review_date": "2021-12-02",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "miHoYo needs to put a team together specifically for listening to complaints and criticism."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Need increased energy caps or energy regen rate improved."
+      },
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "As far as gacha games go this is the most punishing grind I've seen. Insanely low drop rate for decent artifacts, high cost for character wishing especially compared to rewards if not spending large amounts of cash."
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "Be prepared to fight the same fights hundreds of times without getting what you are looking for."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review012",
+    "app_name": "com.doordash.driverapp",
+    "rating": 2,
+    "review_date": "2021-11-24",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Protip: if your app glitches so hard it glitches while trying to display what glitch it had, you need to frigging fix it."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "Finally, their customer support is horrible over the phone, but good through the live text support."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "Their pay system makes absolutely zero sense."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review013",
+    "app_name": "com.ea.gp.fifamobile",
+    "rating": 4,
+    "review_date": "2022-01-18",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Gameplay is very janky, slow, tedious, and all in all, not fun."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "New recommended section in the Transfer Market zone would've been a great addition if it wasn't for the fact the section doesn't show you affordable players."
+      },
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "Game is still wildly pay to win, but this was expected as it is an EA sports game."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review014",
+    "app_name": "com.plarium.mechlegion",
+    "rating": 3,
+    "review_date": "2021-12-24",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "They want to trick people into paying money for it once they are committed to playing."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Pilots broke any balance this game once had."
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "This should be a 4 or 5 star game, but the company does not care about the game experience of the player."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review015",
+    "app_name": "com.medium.reader",
+    "rating": 4,
+    "review_date": "2021-11-13",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Removing a line break doesn't appear to be an option in the mobile app."
+      },
+      {
+        "category": "support",
+        "severity": 2,
+        "quote": "I received a response from support the next day, and they're response was 'unfortunately, the app editor is more limited than the desktop editor and some of the things you are trying to achieve are not currently possible.'"
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review016",
+    "app_name": "com.bethsoft.falloutshelter",
+    "rating": 2,
+    "review_date": "2022-01-25",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "This game has really bad instructions, for instance you will be raided but there is no information about it."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "You don't know if you should click on raiders or what to do to get rid of them."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "Then I read help and there was nothing about raiders either and the raiders came twice within minutes."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "I had to google how to fight with them (hate that nothing happens if you click on them, no hint about what to do whatsoever, just zooming in and out that is annoying)."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "Tips were about the most basic things like energy, food, etc, that people probably figure out themselves, but if there are raiders, sending troops out to explore or fire, then there is no information about what you should physically do (not just take them out, HOW?)."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Also, there is nothing to do in the beginning, build a couple of rooms, run out of caps and close the game Usually games give you a lot to do when you just start, so you would get used to it."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "I played like 10 min and closed it, because nothing to do."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "Then I opened it again and went through every menu to find more information, discovered that the person I sent out is dead now (why is it an early task then and no info about how strong the person should be)."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "Oh, it is even worse. Just now I had a cockroach attack, again, nothing on the screen reacts, just zooms in and out."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Help has only text to deal with it before it spreads. Like HOW? It is impossible to play, unless you have played the main games or google every small thing."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review017",
+    "app_name": "com.xoom.android.app",
+    "rating": 2,
+    "review_date": "2021-12-02",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Absolutely horrid product, service, app, etc."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Long story short, needed to send money to a family member overseas, but this app (and website) is so poor it doesn't recognise International addresses."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "So contact cust service again as documents are there....get another utterly useless template reply that addressed absolutely none of my concerns/points."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Another 3 day's later (were at a week now!!!!) I get an email to say transaction cancelled cause I didn't send in the documents.....even though they are on the app, and contacted cust service about it."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Folks, do yourselves a favour, just use a different service, these people are incompetent."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review018",
+    "app_name": "com.nianticlabs.pikmin",
+    "rating": 4,
+    "review_date": "2021-12-25",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Connectivity issues are reduced but still there, and are mainly caused by the \"game\" itself, it makes the device lag so much that the phone loses connectivity."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Those challenges are reeeeeeally bad, they start fine (in the context of this game, awful in any other context), but the performance starts to tank over time, taking tens of seconds to update the screen, and even for the device to respond, and you can expect to have the device completely frozen and be forced to do a forced reboot."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "The issue of \"you are moving too fast\" persists, and it's annoying, the game lags for a while and you keep walking, then it \"detects\" a sudden jump and believes you are in a vehicle, when a simple average speed based on the timestamp of the last known location and current location would fix this issue."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Even with the \"game\" just opened, not doing challenges or even planting flowers is enough to make the device lag, and it doesn't even need to be in the foreground, it will lag the device even in the background."
+      },
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "Then there's the coins, the smallest amount you can buy is 100 coins for 1 euro, if you want to gather that same amount of coins simply playing the game you'll most likely have to spend tens of hours continuously, and those 100 coins will buy you nothing of worth, while the worthwhile upgrades are cash-only."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Not only the performance is trash, they think their players are stupid with the ridiculous amount of coins given for free when you consider what you can buy with them and how much they cost, the interface is also not great, to say the least, things can be really confusing until you just get used to the piss poor placement of things."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review019",
+    "app_name": "fr.vinted",
+    "rating": 3,
+    "review_date": "2021-12-25",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "For sellers - this is the WORST selling platform! Unable to sort or search listings. No bulk edit."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "For bundles - hunting and pecking to see what items are in your buyers bundles is a complete pain in the tush -- and there's no actual invoice for either seller or buyer to be had."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "Your listing will be hidden or deleted if your pictures are too professional looking -- so do NOT attempt to edit pics -- they'll send a love-note saying 'Copyright Infrigement Violation' to explain why your listing just vanished."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "And Customer Support will just say 'we're right - you're wrong -- too bad\" if you attempt to disagree with them."
+      },
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "NO WAY should you pay for Bumps!"
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "They also just sent out a note saying the Buy Button for custom shipping option is no longer available. No advance heads up to sellers, just a note saying a 'your listings are still there, but buyers cannot buy it'."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "No way to sort or search items = must go thru entire closet one by one to see which listings needed custom shipping because they didn't fit into Small / Medium size option and you don't want to ask buyer to pay $14+ for shipping when as a seller you know there are much more economical options available."
+      }
+    ]
+  },
+  {
+    "review_id": "app03-review020",
+    "app_name": "com.bandainamcoent.tensuramrkww",
+    "rating": 2,
+    "review_date": "2021-12-09",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 4,
+        "quote": "For a long review I can't say that it's not held back by outrageous \"micro\" transactions, and a massive number of technical issues."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "I played since the day after launch, since for a full day when it released the game would error back to it's title screen whenever it tried to load."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "However I had technical issue the entire way, crashing, graphics glitches, and simple menus would frequently break."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "This reached it's worse when after an update, the game for some reason force re-installed itself. Causing me to lose all my save data."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "I contacted customer support, spent 3 hours filling out an overly long forum, only to have to wait almost a month for them to tell me they couldn't do anything."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review001",
+    "app_name": "com.YoStarEN.Arknights",
+    "rating": 4,
+    "review_date": "2021-10-24",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "The gameplay was barely interesting enough but very, VERY repetitive and with level caps gating every stage, with upgrading taking weeks upon months just to be able to beat the next few stages."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "But instead of just using the stamina and getting the end mission rewards, the player must actually sit there and wait for the entire mission to replay itself and there's no way to speed it up past the x2 speed."
+      },
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "weekly annihilations takes around 30 minutes of you just sitting around waiting for the stage to end, and you have to do this multiple times, meanwhile you can't use your phone for anything else."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "Now they've removed a voice actress, Ai Kayano, because of some controversy with China after she visited a Japanese shrine to commemorate WW2 veterans (yes just that)."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review002",
+    "app_name": "com.survival.last",
+    "rating": 3,
+    "review_date": "2021-12-23",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "the mechanics to make you lose your items so you have to buy is ridiculous"
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "lost everything at besieged house of all places my death due to green injection not working then the game not loading fast enough to get back in time"
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "yesterday i had a roll back on progress made and had to redo the whole gas station lost a mysterious basement and a trader"
+      },
+      {
+        "category": "reliability",
+        "severity": 3,
+        "quote": "losing items to buggy system has to be the most heart breaking thing"
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review003",
+    "app_name": "com.nianticlabs.pikmin",
+    "rating": 3,
+    "review_date": "2021-11-16",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "MISSING NOTIFICATIONS FROM YOUR HOME SECURITY SYSTEM, NOT RECEIVING AMBER ALERTS, NOT RECEIVING TEXT MESSAGES, HAVING ALARM CLOCKS WAKE YOU UP LATE OR NOT AT ALL, COME HOME TO FIND YOUR DOOR UNLOCKED WHEN YOUR PHONE AUTOMATICALLY LOCKS IT WHEN YOU LEAVE"
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "You should remove the app from the store, identify the root of the problem with 100% certainty, and stop rolling out the same pseudo-fixes that never resolve the problem without creating another"
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review004",
+    "app_name": "com.herocraft.game.free.spaceshipbattles",
+    "rating": 3,
+    "review_date": "2022-01-19",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "the game is slow and repetitive with almost no progression"
+      },
+      {
+        "category": "price",
+        "severity": 4,
+        "quote": "The game currency is not balanced for the value of money you spend at all. 3.99 will get you 100 currency, and something just like an extra hanger can cost 250 and over. That is almost $10 for nothing, something with no actual value."
+      },
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "You are then hit with some sales ads that want you to buy a ship early for sometimes up to $20!!! Absolutely horrible and not considerate of players value."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review005",
+    "app_name": "com.igg.android.dressuptimeprincess",
+    "rating": 4,
+    "review_date": "2022-01-24",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Since I first started playing, there have been numerous updates overhauling the UI and assets, and each time, they've gotten harder to navigate, lesser in quality, and - sorry to say - uglier."
+      },
+      {
+        "category": "design",
+        "severity": 4,
+        "quote": "No, now I'm met with an awful home screen, and every icon, for clothing and items alike, is terrible to look at."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "The UI is difficult to read, and now includes lots of annoying flashing that I'm sure is a nightmare for anyone with photo-sensitivity or epilepsy."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review006",
+    "app_name": "com.phonevalley.progressive",
+    "rating": 2,
+    "review_date": "2021-11-02",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "I was contacted by multiple phone number via text that looked like scam with this company. It literally came to a point that I had to search these numbers online and could not find which made me very worried."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "I then had to call them waiting on the line for hours learning that it actually was them! Are you serious? What kind of professionalism is that???"
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "This claim took more than 45 days!!!!"
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "When it was finally determined by the police report that they are responsible, they did everything to avoid paying me since I was the the first car of three-car accident this insurance was responsible for."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review007",
+    "app_name": "com.nexon.bluearchive",
+    "rating": 3,
+    "review_date": "2021-12-31",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Equipment drop rates are awful - you'll spend hundreds of energy to only get a single drop of gear (mainly t3-t5)."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Lack of content - this is definitely a side game but since everything but PvP can be finished instantly with skips, you can do everything for the day in <5 minutes."
+      },
+      {
+        "category": "price",
+        "severity": 4,
+        "quote": "Banner rates feel really, really bad - rate up characters hardly have any drop priority, and with the spark at 200, you can easily dump your entire pyroxene stash on a single character."
+      },
+      {
+        "category": "design",
+        "severity": 5,
+        "quote": "PvP is straight up terrible - it's all on auto and can't be controlled so the AI makes their typical dumb decisions and costs you the win more often than not."
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "Censorship - devs promised they wouldn't do this and that it's not their fault, but that's hard to believe."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review008",
+    "app_name": "com.honeywell.android.lyric",
+    "rating": 1,
+    "review_date": "2021-11-04",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "Constantly disconnects from the thermostats."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Thermostats sometimes completely de-register from the app and need to be re-added."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "You have to log in TWICE every time you use it. You open the app, put in your pin, and the screen immediately reloads asking for your pin again."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Why do I need to log in after a short period of time? Its a thermostat, not a bank app."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review009",
+    "app_name": "com.outdooractive.Outdooractive",
+    "rating": 3,
+    "review_date": "2021-10-07",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "The UI when navigating - in cold or wet weather, particularly with gloves, you don't want to be trying to pinch the screen to zoom in an out."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "The long thin red arrow showing direction of movement is much clearer and easier to interpret in VR than the very small blue arrow in OA."
+      },
+      {
+        "category": "design",
+        "severity": 4,
+        "quote": "The lack of detailed contour lines without zooming ridiculously far in is so so frustrating."
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "OA seems to stop navigation/recording when minimized for long periods."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review010",
+    "app_name": "com.devsisters.ck",
+    "rating": 5,
+    "review_date": "2021-12-24",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 4,
+        "quote": "A lot of the items you need to help make the kingdom grow (the aurora items) are locked in the wishing tree or the train. Or if you have money you can buy them at $19.99 or more."
+      },
+      {
+        "category": "price",
+        "severity": 4,
+        "quote": "Another unfortunate item that is locked behind a paywall are rainbow cubes. You can not get these in game for free unless there is an event or a code is given."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "Leveling up cookies in this game is a hassle all on it's own. you need these star candies to level up your cookies."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review011",
+    "app_name": "com.walmart.android",
+    "rating": 2,
+    "review_date": "2021-10-15",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "The app used to be very good but as of an update last month (September 2021) it won't even start up without wanting to turn on location services which is already on and permission given for the app to use it."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "It gives an option to use my zip code but that as well as the location services notice just pop up an error saying \"We are having technical issues\"."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "After the update that killed the app last month I went to an archive site and installed the version before you ruined the app and it was working fairly well except for the issue with looking up an item when in a store that has been mentioned here in other reviews."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "As of now the app won't work at all without letting it update which then completely kills it with the location services error."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Also, you have ruined the site when trying to access it with my favorite web browser on the PC."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review012",
+    "app_name": "com.plarium.mechlegion",
+    "rating": 5,
+    "review_date": "2022-01-06",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "ads",
+        "severity": 3,
+        "quote": "But the main issue is how this game will throw ads in your face to try and make you spend money."
+      },
+      {
+        "category": "ads",
+        "severity": 3,
+        "quote": "After just about every single match you play the game will spam you with popups that you have to close trying to get your money."
+      },
+      {
+        "category": "price",
+        "severity": 4,
+        "quote": "Oh and good luck being competitive without spending money."
+      },
+      {
+        "category": "price",
+        "severity": 4,
+        "quote": "The sheer amount of RNG this game requires just to be able to upgrade mechs and weapons is ridiculous."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review013",
+    "app_name": "com.resmed.myair",
+    "rating": 2,
+    "review_date": "2021-12-26",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "I wanted to change the password on my account (to make it easier to sign in on the mobile phone) but I could not find anywhere to change the password within the mobile app (or on the ResMed website)."
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "The only way (that I could find) to change the password was to initiate, 'forgot password' but, when I did this the process only asked for my email address and when I clicked the link to 'reset password\" there was zero security (Re-checking)."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review014",
+    "app_name": "air.com.beachbumgammon",
+    "rating": 4,
+    "review_date": "2021-12-28",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "You now go from spending .99 - 4.99 to 13.99 - 18.99 for the same packages."
+      },
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "You also must play the 15K 30K or 60K plus games to get any cards to fill your album."
+      },
+      {
+        "category": "reliability",
+        "severity": 3,
+        "quote": "I also think the dice are fixed in this game."
+      },
+      {
+        "category": "support",
+        "severity": 2,
+        "quote": "They give you free coins if you invite friends, so I did. NO coins, sent in ticket, still no coins and now it's my fault."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review015",
+    "app_name": "io.metamask",
+    "rating": 3,
+    "review_date": "2022-01-05",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Trying to access thousands of dollars I have locked away, have the correct 12 word phrase, now they are dodging questions and saying I need a mystery private key I was never told to save."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "They refuse to respond I've been through the entire help section and nothing that works, and their non human auto response regurgitates the same info from the forums ignoring my issue."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Still no follow-up from support. Their only response was directly from FAQ, saying based on my keywords it looks like I am asking about my seed phrase."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review016",
+    "app_name": "com.qustodio.family.parental.control.app.screentime",
+    "rating": 2,
+    "review_date": "2021-10-06",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "The inability to filter text messages. So these are teenagers we are monitoring. If there is an issue with one of their contacts we would like to be able to filter to that particular text thread so that we can see the back and forth conversation."
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "No MMS monitoring. This includes a lot of group text messages. So kids, if you want to avoid your parents monitoring send an MMS instead of SMS."
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "We have 3 phones on the plan. 1 of them we can see all the contact information on calls and texts. 2 phones we can only see phone numbers. Qustodio's suggestion to restart the phones did nothing."
+      },
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "We have had Qustodio for 2 years now and wish that it were better than it is, especially for the annual cost."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review017",
+    "app_name": "com.tuya.smartlife",
+    "rating": 2,
+    "review_date": "2022-01-21",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "For the past 3 months or so, the App has been having terrible LAG issues, when operating the GUI (using the App to turn ON/OFF devices)."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review018",
+    "app_name": "com.global.ztmslg",
+    "rating": 5,
+    "review_date": "2022-01-06",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "Unless you want to spend a lot of money, you will get attacked by much bigger players, resulting in all your troops being killed."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review019",
+    "app_name": "com.mcdonalds.app",
+    "rating": 2,
+    "review_date": "2022-01-30",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "If you want the crispy chicken sandwich with pickles you can't get it with tomatoes and lettuce, or vice versa. You can literally add an extra chicken patty, but not pickles."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Oh, did you want mac sauce on your quarter pounder? Too bad, we've arbitrarily decided you can't do that."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Wanna order on your phone and send your wife to pick it up after work? Nope, gotta press a button on your phone to confirm you're there."
+      }
+    ]
+  },
+  {
+    "review_id": "app04-review020",
+    "app_name": "fm.dice",
+    "rating": 1,
+    "review_date": "2021-10-08",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Klub Verboten are selling tickets - scanning them and then kicking the clients out for no reason: We went to 5 years verboten a couple of weeks ago and were refused entry along with many others for no reason whatsoever."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review001",
+    "app_name": "com.getmimo",
+    "rating": 4,
+    "review_date": "2022-01-06",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "I would suggest using other free sources of information to learn coding if you don't have the money to invest in this app or course, then use it when you have a bit more knowledge."
+      },
+      {
+        "category": "ads",
+        "severity": 1,
+        "quote": "YouTube is the best place to learn the basics and its free if you don't mind the adds."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review002",
+    "app_name": "com.im30.ROE.gp",
+    "rating": 4,
+    "review_date": "2021-11-23",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "some buildings are only there to be there without purpose. or different buildings serve exactly the same purpose and their only difference is to buff a different property."
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "the ressource system seams like it doesn't follow any rule. the level of required resources increases lineary up to a certain point where the resource requirements suddenly increase by at least 200%."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "The FAQ is just a joke. important questions ain't even part of it and that what has made it in has no value or leave you with more questions The Help doesn't even deserve the name! Half is leading into dead-ends and the rest is information of no use ...so goes the list on and on and on"
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review003",
+    "app_name": "com.bandainamcoent.toluminaria_en",
+    "rating": 2,
+    "review_date": "2021-11-07",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 4,
+        "quote": "the odd pinterest style home screen that actually feels super unorganized"
+      },
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "the camera and battle system really are the lowest points of this game for me can't zoom out or turn/move the camera so it's easy to miss things and annoying really to track enemies during fights."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "the button placement for attacking is so uncomfortable to me. like why is there no option to place it anywhere or AT LEAST to the side vs just center of screen which is so awkward and gets in the way of my movement and vision so much of the time."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review004",
+    "app_name": "com.coolkit",
+    "rating": 3,
+    "review_date": "2021-10-26",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "Tried to pair a couple of devices (*WIFI*), other than Sonoff, with it, but eWeLink didn't recognize them, even in 'compatible mode'."
+      },
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "On a MESH network, it shows as many AP as the number of routers [on the network]. Seems it gets lost, I mean, it doesn`t know which router provides better signal, making a great mess, showing a confusing list of all routers on [MESH] network."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "PUSH NOTIFICATIONS are a great, not to say *enormous*, PROBLEM/BUG, mainly because we are talking about a security system, I mean, I have more than a dozen of door/window sensors in our houses (regular and beach) and all I want is to know if their state (sensors) has changed in real time."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review005",
+    "app_name": "com.barkinglabs.fi",
+    "rating": 2,
+    "review_date": "2022-01-18",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "The app kept failing to connect the base to my WiFi with some generic message that it wasn't able to connect and try again later."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "That was an extremely quick conversation and was told that the Fi base can only connect to 2.4 GHz WiFi signals. That felt like a copout answer and I told them I wasn't about to split my 2.4 and 5 GHz signals just for a dog collar."
+      },
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "For what the collar and the subscription costs this collar is not worth the price."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review006",
+    "app_name": "com.yelp.android",
+    "rating": 4,
+    "review_date": "2021-12-17",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "First time using them a year ago spent $324 in a month and I had 6 leads I did business with one and it was a wash on face value but lost money because of operational costs."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "First words out of a lady's mouth O You were supposed to do all of that yourself because you're not paying for it....I said then what am I being charged for?"
+      },
+      {
+        "category": "price",
+        "severity": 4,
+        "quote": "O and on top of all of that, the credit for $300 doesn't go into effect until I spend $450 which was never said."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review007",
+    "app_name": "com.kingsgroup.sos",
+    "rating": 2,
+    "review_date": "2021-12-02",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "However, practically every step you take on it requires an in game purchase."
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "The issue I pointed out, where I bought things that were never applied to my system or never unlocked what was supposed to does not even relate to the idea of needing to join groups or put more time into it."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review008",
+    "app_name": "com.square_enix.android_googleplay.WOTVffbeww",
+    "rating": 2,
+    "review_date": "2021-12-15",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "I can't stress to you how GREEDY and STINGY Square Enix is when it comes to their mobile games."
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "Most of them require you to use paid gems rather than the free ones."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review009",
+    "app_name": "com.os.space.force.galaxy.alien",
+    "rating": 5,
+    "review_date": "2021-10-05",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "The only way to obtain blue gems is to purchase them with hard earned cash or getting just a few by watching lots of adds or playing Hunter or Adventure modes."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "They have really bad customer service. In my experience they will not address the questions I asked and they do not provide a phone number to call."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review010",
+    "app_name": "com.playrix.township",
+    "rating": 5,
+    "review_date": "2021-10-14",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Now to get good decor you have to grind through these horrible non-township related mini games."
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "Support has been useless, they just say 'we'll pass it along' but nothing ever changes."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review011",
+    "app_name": "com.square_enix.android_googleplay.FFBEWW",
+    "rating": 1,
+    "review_date": "2022-01-24",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "It became too p2w and challanging that will put off casual gamers!"
+      },
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Lastly the memory storage is a lie. What you see at this game is NOT the total memory storage you will need. Everytime you access to a stage and cutscene in season 1-3 will increase the sixe little by little until it become over 8GB! Like WTH that is some poor optimizing!"
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review012",
+    "app_name": "com.ford.fordpass",
+    "rating": 2,
+    "review_date": "2021-10-26",
+    "app_version": "3.33",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "Finally got it to load. Had to delete it, reboot phone, then reinstall. Now have to redo PAAK..."
+      },
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "3.33.0 makes the phone totally unresponsive. Can't do basic functions."
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "I'm rather slice off my hands than call for support, get routed to India, a bunch of 'Mr. Rick' and guidance that's not correct."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review013",
+    "app_name": "com.marvel.unlimited",
+    "rating": 4,
+    "review_date": "2022-01-13",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "However, the filter feature still is lightyears away. I would like to see the app use all the real estate on the screen."
+      },
+      {
+        "category": "reliability",
+        "severity": 2,
+        "quote": "When I try to view 'issues only', I get the error 'No Results For Filters | Try again with different or fewer filters for more results.'"
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review014",
+    "app_name": "com.zellepay.zelle",
+    "rating": 5,
+    "review_date": "2022-01-05",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "Like many others have said, the representatives just read from a script and have no clue how to answer any of your legitimate questions."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review015",
+    "app_name": "com.google.android.apps.youtube.music",
+    "rating": 4,
+    "review_date": "2021-12-28",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 3,
+        "quote": "The auto play is never truly disabled, instead when an album ends YTM seems to randomly decide from the top 100 what to play next, often doesn't even match same genre I was listening to."
+      },
+      {
+        "category": "reliability",
+        "severity": 2,
+        "quote": "The shuffle button is broken and almost always starts on the same song and runs through a preset 'shuffled' version of the playlist often repeating the same subset of songs (about 10 songs) over and over."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review016",
+    "app_name": "com.diune.pictures",
+    "rating": 3,
+    "review_date": "2021-11-05",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "It lost 1/4 of the pix, never to be seen."
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "now it seems that pictures are not immediately, or even quickly, showing up in the 'all' album."
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "Photos I took with my camera yesterday evening and this morning are still not showing up in the application in any album."
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "it now doesn't show all of my photos."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review017",
+    "app_name": "co.feeld",
+    "rating": 4,
+    "review_date": "2021-10-29",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "This app is full of bugs."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "AND FEELD LEAKED MY PRIVATE PHOTOS and made them public."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "for a month the support team have not responded to my emails explaining I cannot log in."
+      },
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "The app will not load your matches and keeps saying 'connection error'"
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "there's no guarantee your photos will stay private."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "You email Feeld and never ever ever get a reply."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review018",
+    "app_name": "com.zellepay.zelle",
+    "rating": 1,
+    "review_date": "2022-01-04",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "They informed me Zelle would not let them send it to me."
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "I called customer service and they said I had been flagged for suspicious activity and misuse and there was nothing I could do and nothing they could or would do."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "Customer service on this particular incident, in my opinion, was nothing more than a person reading a script to move me through the system to get to the next person."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review019",
+    "app_name": "se.illusionlabs.skate2",
+    "rating": 4,
+    "review_date": "2021-11-09",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "To my horror,and surprise,my phone got stuck."
+      },
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "The graphics are wrong."
+      },
+      {
+        "category": "ads",
+        "severity": 4,
+        "quote": "The purchases make the game seem ore like a stupid shopping mall that wont allow you to move unlesss you see a sponsored advert or you buy something with money."
+      },
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "It is unfroffesional,incompotent,and extremely frustrating if I recollect the ordeals i still face right now."
+      }
+    ]
+  },
+  {
+    "review_id": "app05-review020",
+    "app_name": "com.thumbtack.pro",
+    "rating": 4,
+    "review_date": "2021-11-01",
+    "app_version": null,
+    "issues": [
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "Make the base prices of the Pro more visible to the Customers. Because many Customers do not see the prices of the Pro and order them. And then it turns out that the Customer is ready to pay 2-3-5 times less!!!"
+      },
+      {
+        "category": "design",
+        "severity": 2,
+        "quote": "Add the 'wrong category selection' return category! Many clients choose inappropriate categories and because of this, Pros lose money."
+      },
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "Add a minimum order price option. Often there are Customers who want Pro to come and do something for $ 30-40. This is not beneficial for the Pro."
+      },
+      {
+        "category": "design",
+        "severity": 2,
+        "quote": "Make a daily budget, not a weekly one."
+      },
+      {
+        "category": "design",
+        "severity": 2,
+        "quote": "Add the option 'do not accept orders on the same day'."
+      },
+      {
+        "category": "design",
+        "severity": 2,
+        "quote": "Filters in 'Opportunities' don't work correctly!"
+      }
+    ]
+  }
+]

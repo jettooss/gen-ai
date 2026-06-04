@@ -8,6 +8,8 @@
   LLM_BASE_URL   — базовый URL в духе https://host/v1
   LLM_AUTH_TOKEN — bearer-токен
   LLM_MODEL      — имя модели для chat.completions
+Также поддержаны алиасы RouterAI:
+  ROUTERAI_BASE_URL, ROUTERAI_API_KEY, ROUTERAI_MODEL
 
 Fallback: если LLM_BASE_URL не задан — идём в публичный OpenAI и требуем OPENAI_API_KEY.
 
@@ -57,13 +59,17 @@ T = TypeVar("T")
 
 
 def _make_openai_client() -> OpenAI:
-    base = os.environ.get("LLM_BASE_URL")
+    base = os.environ.get("LLM_BASE_URL") or os.environ.get("ROUTERAI_BASE_URL")
     if base:
-        key = os.environ.get("LLM_AUTH_TOKEN") or os.environ.get("OPENAI_API_KEY")
+        key = (
+            os.environ.get("LLM_AUTH_TOKEN")
+            or os.environ.get("ROUTERAI_API_KEY")
+            or os.environ.get("OPENAI_API_KEY")
+        )
         if not key:
             raise RuntimeError(
-                "LLM_AUTH_TOKEN не задан. Либо экспортируй токен, "
-                "либо положи LLM_AUTH_TOKEN=... в .env."
+                "LLM_AUTH_TOKEN/ROUTERAI_API_KEY не задан. Либо экспортируй токен, "
+                "либо положи ROUTERAI_API_KEY=... в .env."
             )
         timeout = float(os.environ.get("LLM_TIMEOUT", "200"))
         http = httpx.Client(verify=False, timeout=timeout)
@@ -72,14 +78,14 @@ def _make_openai_client() -> OpenAI:
     key = os.environ.get("OPENAI_API_KEY")
     if not key:
         raise RuntimeError(
-            "Ни LLM_BASE_URL, ни OPENAI_API_KEY не заданы. "
+            "Ни LLM_BASE_URL/ROUTERAI_BASE_URL, ни OPENAI_API_KEY не заданы. "
             "Сконфигурируй стенд через .env (см. .env.example)."
         )
     return OpenAI(api_key=key)
 
 
 def get_model() -> str:
-    return os.environ.get("LLM_MODEL", "gpt-4.1-mini")
+    return os.environ.get("LLM_MODEL") or os.environ.get("ROUTERAI_MODEL") or "gpt-4.1-mini"
 
 
 # ---------------------------------------------------------------------------

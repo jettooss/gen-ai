@@ -1,0 +1,22 @@
+{
+  "runs": [
+    {
+      "run": 1,
+      "prompt_tokens": 16125,
+      "cache_hit_tokens": 0,
+      "cache_miss_tokens": 0,
+      "objects": 20
+    },
+    {
+      "run": 2,
+      "prompt_tokens": 16125,
+      "cache_hit_tokens": 0,
+      "cache_miss_tokens": 0,
+      "objects": 20
+    }
+  ],
+  "provider_exposed_cache_hit": false,
+  "theoretical_assumption": "90% discount on repeated input tokens",
+  "theoretical_saving_rub": 0.304762,
+  "theoretical_saving_usd": 0.003386
+}

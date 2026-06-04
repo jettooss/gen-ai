@@ -1,0 +1,124 @@
+{
+  "verdicts": [
+    {
+      "action": "Улучшите прозрачность монетизации и избегайте агрессивных pay-to-win механик, чтобы повысить доверие пользователей.",
+      "support": "supported",
+      "evidence": [
+        "[com.sonypicturestelevision.myheroacademia/price] «Minimum cost of a new hero is $266.50 but that hero is handicapped and cannot use all skills.»",
+        "[com.sonypicturestelevision.myheroacademia/price] «Full upgraded hero is $3,486.80 WITHOUT CARDS.»",
+        "[com.sonypicturestelevision.myheroacademia/price] «Total cost for fully upgrading both support cards is $4933.60.»",
+        "[com.sonypicturestelevision.myheroacademia/price] «Fully upgraded new event hero cost: $8420.40.»",
+        "[com.sonypicturestelevision.myheroacademia/price] «Average monthly cost to play without drawing for newly released units: about $400.»",
+        "[com.global.ztmslg/price] «However, there are powerful heroes and equipment that cannot be earned in game. You have to buy them.»",
+        "[com.plarium.raidlegends/price] «You will never complete end game content unless you spend $20,000 in real money or more.»",
+        "[com.kingsgroup.sos/price] «This game is more than just pay to play. Spending $100/week doesn't allow you to compete. You have to spend really heavy to compete in this game or you get run over.»",
+        "[net.wargaming.wot.blitz/price] «You make hardly any credits playing this game, unless you purchase a premium account (and yes, this costs actual money).»"
+      ],
+      "comment": "Прямые цитаты подтверждают наличие агрессивных pay-to-win механик и отсутствие прозрачности в монетизации."
+    },
+    {
+      "action": "Оптимизируйте приложения для устранения технических проблем, таких как сбои и лаги.",
+      "support": "supported",
+      "evidence": [
+        "[com.sonypicturestelevision.myheroacademia/performance] «The game itself is loaded with game breaking bugs and lag which actually get worse with each update.»",
+        "[com.global.ztmslg/performance] «Game constantly glitches, freezes. I have never seen a game freeze up like this since 2005.»",
+        "[com.asmodeedigital.terraformingmars/performance] «Load times become obstructively longer as games progress, leading load times to completely eclipse time spent playing the game, making the game a bloated timesink and far less desirable to play.»",
+        "[com.delta.mobile.android/performance] «can’t see where flights come from; check-in with KLM and can’t track bags.»",
+        "[com.outdooractive.Outdooractive/performance] «OA has made it hard to have the mobile device acquire GPS signal.»",
+        "[com.microsoft.teams/performance] «Answering a call with a Teams Certified headset, the audio goes through the phone instead of the headset.»",
+        "[com.microsoft.teams/performance] «Same issue if you get an incoming cell call while in a Teams meeting. Sounds and mic goes through the phone and completely ignores the BT device.»",
+        "[com.microsoft.teams/performance] «Delay(3-4 seconds) between answering a call and getting audio.»",
+        "[com.microsoft.teams/performance] «Latencies while in a call. Very annoying because you end up speaking on top of each other.»",
+        "[com.microsoft.teams/performance] «General bad call quality. I find myself rather surprised every time I get a good quality call.»"
+      ],
+      "comment": "Многочисленные жалобы на технические проблемы, такие как лаги, сбои и медленная работа, подтверждают необходимость оптимизации."
+    },
+    {
+      "action": "Укрепите службу поддержки клиентов, чтобы оперативно решать проблемы пользователей.",
+      "support": "supported",
+      "evidence": [
+        "[com.sonypicturestelevision.myheroacademia/support] «Support is non-existent as you can guess by the bot replies to every valid negative review.»",
+        "[com.global.ztmslg/support] «An absolute joke. They brush off questions/concerns, and even wave off screenshot evidence.»",
+        "[com.plarium.raidlegends/support] «And to make it worse those are the only people this company really cares about.»",
+        "[com.apple.movetoios/support] «The support and instructions for this is just as bad.»",
+        "[epic.mychart.android/support] «There is no link to tech support from Epic anywhere.»",
+        "[com.eharmony/support] «Fair and honest people need to be warned of this company's extortionate practices and the worst customer help service I have ever encountered!»",
+        "[net.wargaming.wot.blitz/support] «Finally, if you ever have a problem and need help from the company to get it resolved, they are very RUDE! They have the WORST customer service I have every experienced.»",
+        "[com.global.ztmslg/support] «Company knows and doesnt respond to 1000s of complaints on this.»",
+        "[com.global.ztmslg/support] «Promised compensation for days, for some reason its always an issue when its time to get it, guess what, it didnt come though, they still working on it days later.»",
+        "[com.global.ztmslg/support] «I wrote company, emailed company, days later they stated they didnt get the funds.»"
+      ],
+      "comment": "Многочисленные жалобы на отсутствие или низкое качество поддержки клиентов подтверждают необходимость улучшения."
+    },
+    {
+      "action": "Пересмотрите пользовательский интерфейс и добавьте недостающие функции для улучшения удобства использования.",
+      "support": "supported",
+      "evidence": [
+        "[com.freestylelibre2.app.us/design] «Remove the limitation of user controls for sound, vibration, range limits, etc.»",
+        "[com.freestylelibre2.app.us/design] «Make the alarms easier to dismiss.»",
+        "[com.freestylelibre2.app.us/design] «Along the same lines of making it easier to dismiss, make the dismiss button easy to get to (foreground) and then don't keep turning the alarm on every minute.»",
+        "[com.freestylelibre2.app.us/design] «Allow the alarms to be vibration as an option.»",
+        "[com.freestylelibre2.app.us/design] «Allow users to turn on/off the ultra low alarm or at least be able to set the range.»",
+        "[com.global.ztmslg/design] «The story drops, and starts over at a harder version of level 1.»",
+        "[com.pandora.android/design] «Inability to manage playlists is unacceptable. It's not possible on the app, web interface, or desktop application.»",
+        "[com.cbs.ott/design] «They've added a completely useless 'What do you want to watch' screen which sometimes shows up when you start the app, sometimes doesn't.»",
+        "[com.cbs.ott/design] «The UI sucks. Bad. The 4-way (arrow) buttons will ONLY skip 10 seconds in either direction (tho you can hold down to skip many times).»",
+        "[com.cbs.ott/design] «Of more import is the COMPLETE lack of having any sort of bookmarks, watch list, or even remembering where you were if you stop the show for a moment!»"
+      ],
+      "comment": "Прямые цитаты указывают на проблемы с пользовательским интерфейсом и отсутствие важных функций."
+    },
+    {
+      "action": "Проводите тщательное тестирование обновлений перед выпуском, чтобы избежать ухудшения функциональности.",
+      "support": "supported",
+      "evidence": [
+        "[com.sonypicturestelevision.myheroacademia/performance] «The game itself is loaded with game breaking bugs and lag which actually get worse with each update.»",
+        "[com.asmodeedigital.terraformingmars/performance] «Load times become obstructively longer as games progress, leading load times to completely eclipse time spent playing the game, making the game a bloated timesink and far less desirable to play.»",
+        "[com.marvel.unlimited/performance] «Unfortunately, a bungled update in early September has made it virtually unusable, with lots of functionality removed and core pieces of the program just simply broken.»",
+        "[com.sygic.aura/performance] «Well, it used to, but the latest update broke this completely.»",
+        "[com.sygic.aura/performance] «It also crashes on start every now and then now (didn't used to).»",
+        "[com.sygic.aura/reliability] «It also locks up on startup saying 'Internet connection needed'.»",
+        "[com.walmart.android/reliability] «The app used to be very good but as of an update last month (September 2021) it won't even start up without wanting to turn on location services which is already on and permission given for the app to use it.»",
+        "[com.walmart.android/reliability] «It gives an option to use my zip code but that as well as the location services notice just pop up an error saying 'We are having technical issues'.»",
+        "[com.walmart.android/reliability] «After the update that killed the app last month I went to an archive site and installed the version before you ruined the app and it was working fairly well except for the issue with looking up an item when in a store that has been mentioned here in other reviews.»",
+        "[com.walmart.android/reliability] «As of now the app won't work at all without letting it update which then completely kills it with the location services error.»"
+      ],
+      "comment": "Многочисленные жалобы на ухудшение функциональности после обновлений подтверждают необходимость более тщательного тестирования."
+    },
+    {
+      "action": "Обеспечьте прозрачность процессов и улучшите безопасность данных пользователей.",
+      "support": "not_supported",
+      "evidence": [],
+      "comment": "Нет прямых цитат, подтверждающих проблемы с прозрачностью процессов или безопасностью данных пользователей."
+    },
+    {
+      "action": "Решите проблемы с подключением и синхронизацией данных для повышения стабильности приложений.",
+      "support": "supported",
+      "evidence": [
+        "[com.apple.movetoios/reliability] «The tech at the shop told me they have never been successful in this app working its way to completion.»",
+        "[com.apple.movetoios/reliability] «Move to iOS does not work. I nearly returned my iPhone due to my horrible experience.»",
+        "[com.apple.movetoios/reliability] «I got the dreaded 'stuck on preparing screen' error.»",
+        "[com.apple.movetoios/reliability] «The transfer did not work, so I retried and unchecked 'Messages' from the transfer options.»",
+        "[com.apple.movetoios/reliability] «This time, the Move to iOS app threw a 'Error during transfer' error after about 20-30 minutes.»",
+        "[com.apple.movetoios/reliability] «I reinstalled the app and tried again a few times. Same error.»",
+        "[com.apple.movetoios/reliability] «HOWEVER, only the photos in the 'Camera' folder on the Pixel transferred.»",
+        "[com.apple.movetoios/reliability] «iPhone cannot sync with Google Photos. There is a 'sync favorites', but it's pretty half assed for a syncing solution.»",
+        "[com.outdooractive.Outdooractive/reliability] «The on-the-hike elevation profile is beyond buggy - it is not trustworthy.»",
+        "[com.outdooractive.Outdooractive/reliability] «Also struggling to sync between the app on the phone and the login on the PC.»"
+      ],
+      "comment": "Многочисленные жалобы на проблемы с подключением и синхронизацией данных подтверждают необходимость улучшения."
+    },
+    {
+      "action": "Расширьте контент и разнообразьте геймплей, чтобы избежать повторяемости и скуки.",
+      "support": "weakly_supported",
+      "evidence": [
+        "[com.global.ztmslg/design] «The story drops, and starts over at a harder version of level 1.»",
+        "[com.square_enix.android_googleplay.nierspww/performance] «Gameplay is too grindy.»",
+        "[com.square_enix.android_googleplay.nierspww/performance] «The gameplay is VERY grindy as mentioned by others.»",
+        "[com.kingsgroup.sos/design] «The new content is constantly recycled with new shine but same old tired gameplay.»"
+      ],
+      "comment": "Есть косвенные указания на повторяемость и скуку в геймплее, но прямых доказательств недостаточно."
+    }
+  ],
+  "overall_score": 0.875,
+  "summary": "Большинство рекомендаций подтверждены извлеченными проблемами, особенно в области монетизации, технических проблем, поддержки клиентов и пользовательского интерфейса. Однако рекомендация по прозрачности процессов и безопасности данных не нашла подтверждения."
+}
