@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "type": "прямой",
+    "question": "Что такое RAG и зачем он нужен внутреннему помощнику?",
+    "gold_sources": ["01_rag_basics"]
+  },
+  {
+    "id": 2,
+    "type": "прямой",
+    "question": "Чем fixed-size chunking отличается от recursive splitter?",
+    "gold_sources": ["02_chunking_strategies"]
+  },
+  {
+    "id": 3,
+    "type": "точный термин",
+    "question": "Что такое reciprocal rank fusion или RRF?",
+    "gold_sources": ["03_dense_and_sparse_search"]
+  },
+  {
+    "id": 4,
+    "type": "точный термин",
+    "question": "Как считается hit-rate@5 для нескольких gold_sources?",
+    "gold_sources": ["04_evaluation_gold"]
+  },
+  {
+    "id": 5,
+    "type": "синоним",
+    "question": "Почему модель может выдумывать факты и как RAG это уменьшает?",
+    "gold_sources": ["01_rag_basics", "05_reranking_and_context"]
+  },
+  {
+    "id": 6,
+    "type": "перефраз",
+    "question": "Что делать, если найденный фрагмент похож по теме, но плохо отвечает на вопрос?",
+    "gold_sources": ["05_reranking_and_context"]
+  },
+  {
+    "id": 7,
+    "type": "multi-hop",
+    "question": "Как связаны gold-разметка, retrieval debug и анализ ошибок?",
+    "gold_sources": ["04_evaluation_gold", "08_limitations_and_report"]
+  },
+  {
+    "id": 8,
+    "type": "multi-hop",
+    "question": "Какие production-меры нужны, чтобы RAG не возвращал устаревшие или запрещенные документы?",
+    "gold_sources": ["06_production_rag"]
+  },
+  {
+    "id": 9,
+    "type": "синоним",
+    "question": "Как искать, если пользователь пишет разговорно, а документы используют другие формулировки?",
+    "gold_sources": ["07_query_rewriting", "03_dense_and_sparse_search"]
+  },
+  {
+    "id": 10,
+    "type": "multi-hop",
+    "question": "Почему smart-чанкинг может выиграть на определениях, а fixed иногда помогает на multi-hop?",
+    "gold_sources": ["02_chunking_strategies", "08_limitations_and_report"]
+  }
+]
