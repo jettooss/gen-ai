@@ -21,6 +21,7 @@ import argparse
 import datetime
 import json
 import sys
+import uuid
 from concurrent.futures import ThreadPoolExecutor
 from json.decoder import JSONDecodeError
 from pathlib import Path
@@ -32,7 +33,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from llm_client import get_model, make_client, make_raw_client
 from schemas import TOOL_SCHEMAS
-from tools import calculate, get_fx_rate, get_inflation, get_key_rate, get_unemployment
+from tools import (
+    calculate,
+    compare_periods,
+    get_fx_rate,
+    get_inflation,
+    get_key_rate,
+    get_unemployment,
+)
 
 # набор инструментов
 TOOLS_IMPL = {
@@ -40,6 +48,7 @@ TOOLS_IMPL = {
     "get_key_rate": get_key_rate,
     "get_inflation": get_inflation,
     "get_unemployment": get_unemployment,
+    "compare_periods": compare_periods,
     "calculate": calculate,
 }
 
@@ -104,6 +113,7 @@ _BASE_RULES = """\
 - get_key_rate: ключевая ставка Цб на дату
 - get_inflation: ИПЦ (% г/г) на конец месяца
 - get_unemployment: безработица (% рабочей силы) на конец месяца
+- compare_periods: сравнить метрику в двух периодах и получить delta/ratio
 - calculate: безопасный калькулятор для арифметики над полученными числами
 
 Алгоритм:
@@ -115,6 +125,8 @@ _BASE_RULES = """\
 5. Индекс нищеты = инфляция г/г + безработица.
 6. Кросс-курс «сколько B за 1 A» = (рублей за 1 A) / (рублей за 1 B).
    Пример: «юаней за доллар» = (рублей за доллар) / (рублей за юань).
+7. Если вопрос просит сравнить два периода или узнать «во сколько раз»,
+   сначала используй compare_periods, а не отдельные вызовы.
 """
 
 SYSTEM_PROMPT = (
@@ -240,6 +252,21 @@ def _finish(
     return res
 
 
+def _write_trace(trace_path: Path, event: dict) -> None:
+    trace_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(trace_path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(event, ensure_ascii=False) + "\n")
+
+
+def _event(run_id: str, step: int, **data: Any) -> dict:
+    return {
+        "run_id": run_id,
+        "ts": datetime.datetime.now().isoformat(timespec="seconds"),
+        "step": step,
+        **data,
+    }
+
+
 def run_agent(
     user_query: str,
     *,
@@ -249,11 +276,14 @@ def run_agent(
     use_critic: bool = False,
     use_cache: bool = False,
     track_cost: bool = False,
+    trace_path: Optional[Path] = None,
     verbose: bool = True,
 ) -> dict[str, Any]:
     """ReAct-цикл. базовый режим — финал текстом; флаги включают блоки 6-10."""
     client = make_raw_client()
     model = get_model()
+    run_id = str(uuid.uuid4())
+    trace_path = trace_path or Path(__file__).resolve().parent / "trace.jsonl"
     tools = TOOL_SCHEMAS + ([SUBMIT_SCHEMA] if structured else [])
     system = SYSTEM_PROMPT_PRO if structured else SYSTEM_PROMPT
     cache = TOOL_CACHE if use_cache else None
@@ -294,13 +324,16 @@ def run_agent(
             print(f"[step {step}] {names or 'финал-текст'}")
 
         if not msg.tool_calls:
-            trace.append({"step": step, "final": msg.content})
+            item = {"step": step, "final": msg.content}
+            trace.append(item)
+            _write_trace(trace_path, _event(run_id, step, final=msg.content))
             return _finish(
                 {
                     "answer": msg.content,
                     "structured": None,
                     "trace": trace,
                     "steps": step,
+                    "run_id": run_id,
                 },
                 usage_log,
                 track_cost=track_cost,
@@ -330,6 +363,16 @@ def run_agent(
                 )
                 trace.append(
                     {"step": step, "call": tc.function.name, "args": args, "obs": obs}
+                )
+                _write_trace(
+                    trace_path,
+                    _event(
+                        run_id,
+                        step,
+                        call=tc.function.name,
+                        args=args,
+                        obs=obs,
+                    ),
                 )
                 if verbose:
                     print(
@@ -366,12 +409,14 @@ def run_agent(
             messages.append(
                 {"role": "tool", "tool_call_id": submit.id, "content": "ответ принят"}
             )
+            _write_trace(trace_path, _event(run_id, step, final=ans.answer))
             return _finish(
                 {
                     "answer": ans.answer,
                     "structured": ans,
                     "trace": trace,
                     "steps": step,
+                    "run_id": run_id,
                 },
                 usage_log,
                 track_cost=track_cost,
@@ -379,13 +424,16 @@ def run_agent(
                 verbose=verbose,
             )
 
+    error_text = f"исчерпан лимит шагов max_iter={max_iter}"
+    _write_trace(trace_path, _event(run_id, max_iter, final=error_text))
     return _finish(
         {
             "answer": None,
             "structured": None,
             "trace": trace,
             "steps": max_iter,
-            "error": f"исчерпан лимит шагов max_iter={max_iter}",
+            "run_id": run_id,
+            "error": error_text,
         },
         usage_log,
         track_cost=track_cost,
@@ -437,6 +485,7 @@ def main():
         use_critic=a.critic,
         use_cache=a.cache,
         track_cost=a.cost,
+        trace_path=a.trace,
     )
 
     print("\n=== ВОПРОС ===")

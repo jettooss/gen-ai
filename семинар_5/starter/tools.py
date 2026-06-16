@@ -13,6 +13,7 @@
 from __future__ import annotations
 
 import csv
+import math
 import re
 import urllib.error
 import urllib.parse
@@ -22,7 +23,10 @@ from datetime import date as _date
 from datetime import datetime
 from pathlib import Path
 
-import sympy  # noqa: F401  (пригодится в calculate)
+try:
+    import sympy
+except ModuleNotFoundError:
+    sympy = None
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
 
@@ -45,6 +49,48 @@ def _parse_date(s: str | None) -> _date:
     if isinstance(s, _date):
         return s
     return datetime.strptime(s, "%Y-%m-%d").date()
+
+
+def _period_to_date(period: str) -> str:
+    """YYYY-MM превращаем в первое число месяца, YYYY-MM-DD оставляем как есть."""
+    if re.fullmatch(r"\d{4}-\d{2}", period):
+        return period + "-01"
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", period):
+        return period
+    raise ValueError("period должен быть YYYY-MM или YYYY-MM-DD")
+
+
+def _period_to_year_month(period: str) -> tuple[int, int]:
+    if re.fullmatch(r"\d{4}-\d{2}", period):
+        year, month = period.split("-")
+    elif re.fullmatch(r"\d{4}-\d{2}-\d{2}", period):
+        year, month, _ = period.split("-")
+    else:
+        raise ValueError("period должен быть YYYY-MM или YYYY-MM-DD")
+    return int(year), int(month)
+
+
+def _value_from_result(metric: str, obs: dict) -> float:
+    if "error" in obs:
+        raise ValueError(obs["error"])
+    if metric.startswith("fx_"):
+        return float(obs["rate"])
+    if metric == "key_rate":
+        return float(obs["rate"])
+    if metric == "cpi":
+        return float(obs["cpi_yoy"])
+    if metric == "unemployment":
+        return float(obs["unemployment"])
+    raise ValueError(f"неизвестная метрика: {metric}")
+
+
+def _source_from(obs_a: dict, obs_b: dict) -> str:
+    sources = []
+    for obs in (obs_a, obs_b):
+        source = obs.get("source")
+        if source and source not in sources:
+            sources.append(source)
+    return "+".join(sources) if sources else "unknown"
 
 
 # ===========================================================================
@@ -261,6 +307,56 @@ def get_unemployment(year: int, month: int) -> dict:
 
 
 # ===========================================================================
+# 3c. Сравнение двух периодов
+# ===========================================================================
+
+
+def compare_periods(metric: str, period_a: str, period_b: str) -> dict:
+    """
+    Сравнить значение метрики в двух периодах.
+
+    metric: key_rate | fx_USD | fx_EUR | fx_CNY | cpi | unemployment
+    period_a, period_b: YYYY-MM или YYYY-MM-DD.
+    """
+    metric = metric.strip()
+    allowed = {"key_rate", "fx_USD", "fx_EUR", "fx_CNY", "cpi", "unemployment"}
+    if metric not in allowed:
+        return {"error": f"metric должен быть одним из: {', '.join(sorted(allowed))}"}
+
+    try:
+        if metric.startswith("fx_"):
+            currency = metric.split("_", 1)[1]
+            obs_a = get_fx_rate(currency, _period_to_date(period_a))
+            obs_b = get_fx_rate(currency, _period_to_date(period_b))
+        elif metric == "key_rate":
+            obs_a = get_key_rate(_period_to_date(period_a))
+            obs_b = get_key_rate(_period_to_date(period_b))
+        elif metric == "cpi":
+            year_a, month_a = _period_to_year_month(period_a)
+            year_b, month_b = _period_to_year_month(period_b)
+            obs_a = get_inflation(year_a, month_a)
+            obs_b = get_inflation(year_b, month_b)
+        else:
+            year_a, month_a = _period_to_year_month(period_a)
+            year_b, month_b = _period_to_year_month(period_b)
+            obs_a = get_unemployment(year_a, month_a)
+            obs_b = get_unemployment(year_b, month_b)
+
+        value_a = _value_from_result(metric, obs_a)
+        value_b = _value_from_result(metric, obs_b)
+        return {
+            "metric": metric,
+            "a": {"date": obs_a.get("date") or f"{obs_a.get('year')}-{obs_a.get('month'):02d}", "value": value_a},
+            "b": {"date": obs_b.get("date") or f"{obs_b.get('year')}-{obs_b.get('month'):02d}", "value": value_b},
+            "delta": round(value_b - value_a, 6),
+            "ratio": round(value_b / value_a, 6) if value_a != 0 else None,
+            "source": _source_from(obs_a, obs_b),
+        }
+    except Exception as e:
+        return {"metric": metric, "error": f"{type(e).__name__}: {e}"}
+
+
+# ===========================================================================
 # 4. Калькулятор
 # ===========================================================================
 
@@ -285,7 +381,25 @@ def calculate(expression: str) -> dict:
         return {"error": "пустое выражение"}
 
     try:
-        val = float(sympy.sympify(expression.replace("^", "**")))
+        expr = expression.replace("^", "**")
+        if sympy is not None:
+            val = float(sympy.sympify(expr))
+        else:
+            allowed_names = {
+                "log": math.log,
+                "ln": math.log,
+                "sqrt": math.sqrt,
+                "exp": math.exp,
+                "pi": math.pi,
+                "e": math.e,
+                "sin": math.sin,
+                "cos": math.cos,
+                "tan": math.tan,
+                "abs": abs,
+            }
+            if re.search(r"[^0-9+\-*/().,\s_a-zA-Z]", expr):
+                return {"expression": expression, "error": "запрещенные символы"}
+            val = float(eval(expr, {"__builtins__": {}}, allowed_names))
         return {"expression": expression, "result": round(val, 6)}
     except Exception as e:
         return {"error": f"{type(e).__name__}: {e}"}
