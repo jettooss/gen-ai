@@ -1,0 +1,4 @@
+# Большой CSV-файл (46MB) — скачать вручную:
+# curl -L -o input/vacancies.csv \
+#   "https://huggingface.co/datasets/trewwxsav/IT_vacancies_from_hh.ru/resolve/main/all_vacancies.csv"
+*.csv

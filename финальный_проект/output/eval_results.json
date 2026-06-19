@@ -1,0 +1,241 @@
+{
+  "summary": {
+    "total": 15,
+    "passed": 9,
+    "pass_rate": 0.6,
+    "avg_score": 5.87
+  },
+  "cases": [
+    {
+      "case_id": 1,
+      "query": "Ищу работу Python-разработчика с опытом ML",
+      "mode": "agent",
+      "answer_preview": "**Топ‑3 вакансии для Python‑разработчика с ML‑опытом**  \n1. **Senior backend developer – Python (AI/ML) – Novakid Inc.** (№ 49) – оценка совпадения **2/10**: требуется Python, но не хватает навыков AW",
+      "judge_score": 8,
+      "judge_reasoning": "Ответ содержит конкретные вакансии и объяснение, почему они не полностью подходят (оценка совпадения), а также рекомендации по навыкам, которые стоит развивать. Это соответствует критериям хорошего ответа (7–9).",
+      "pass": true,
+      "steps": 1,
+      "elapsed_sec": 15.1,
+      "tools_used": [
+        "search_vacancies",
+        "score_match",
+        "get_skills_gap"
+      ]
+    },
+    {
+      "case_id": 2,
+      "query": "Data Scientist с опытом NLP и трансформерами",
+      "mode": "agent",
+      "error": "В ответе не найдено валидного JSON: ''",
+      "judge_score": 0,
+      "pass": false,
+      "steps": 0,
+      "elapsed_sec": 0,
+      "tools_used": []
+    },
+    {
+      "case_id": 3,
+      "query": "Junior Data Engineer — ETL, Spark, Airflow",
+      "mode": "agent",
+      "answer_preview": "**Top‑3 вакансии для Junior Data Engineer (ETL, Spark, Airflow):**  \n1. **Middle/Python Developer (AI Project, Kesmaty)** – 8/10 совпадения: Python, Data Pipelines, Data Lakes, Data Warehouses, DevOps",
+      "judge_score": 7,
+      "judge_reasoning": "The answer provides three job listings with brief match percentages and some explanation of how they relate to ETL, Spark, Airflow. It includes relevant job titles and a short rationale for each match. However, the listed positions (Middle/Python Developer, Product Analyst, Math Modeler/Data Scientist) do not directly align with a Junior Data Engineer role, and the explanation lacks depth regarding required skills and how the candidates fit. Thus it meets the criteria for a good answer (7‑9) but is not ideal.",
+      "pass": true,
+      "steps": 2,
+      "elapsed_sec": 39.2,
+      "tools_used": [
+        "search_vacancies",
+        "score_match",
+        "get_skills_gap"
+      ]
+    },
+    {
+      "case_id": 4,
+      "query": "ML Engineer, деплой моделей, MLflow, Docker",
+      "mode": "agent",
+      "answer_preview": "**Top‑3 вакансии по запросу «ML Engineer, деплой моделей, MLflow, Docker»**  \n1. **Senior backend developer – Python (AI/ML)** – 8/10: совпадает с Python, AI/ML, Docker, но отсутствует MLflow и CI/CD.",
+      "judge_score": 8,
+      "judge_reasoning": "Ответ содержит конкретные вакансии (три позиции) и объяснение, почему они соответствуют запросу, а также дополнительные рекомендации по навыкам. Это соответствует критериям хорошего ответа (7–9).",
+      "pass": true,
+      "steps": 2,
+      "elapsed_sec": 76.6,
+      "tools_used": [
+        "search_vacancies",
+        "score_match",
+        "get_skills_gap"
+      ]
+    },
+    {
+      "case_id": 5,
+      "query": "Аналитик данных, Excel/Power BI, SQL",
+      "mode": "agent",
+      "answer_preview": "**Top‑3 вакансии**  \n1. **Systems analyst middle+/senior (remote) – Americor Funding Inc.** – 8/10 совпадения: SQL, Power BI, Excel, Business Intelligence.  \n2. **Product analyst – Mayflower** – 6/10 ",
+      "judge_score": 8,
+      "judge_reasoning": "The response provides three specific job listings that match the requested criteria (Excel/Power BI/SQL) and includes a brief explanation of how each vacancy aligns with the user's skills. It also offers actionable learning suggestions relevant to the listed positions. This satisfies the requirement for a good answer (score 7-9).",
+      "pass": true,
+      "steps": 1,
+      "elapsed_sec": 17.9,
+      "tools_used": [
+        "search_vacancies",
+        "score_match",
+        "get_skills_gap"
+      ]
+    },
+    {
+      "case_id": 6,
+      "query": "Senior Python backend, FastAPI, PostgreSQL, микросервисы",
+      "mode": "agent",
+      "answer_preview": "**Top‑3 вакансии**  \n1. **[91] Blockchain developer (Python, Solidity) – cls global** – оценка совпадения 4/10 (Python, FastAPI, но не хватает Flask и Solidity).  \n2. **[34] Senior backend (Python) – ",
+      "judge_score": 7,
+      "judge_reasoning": "The answer lists three vacancies and offers a brief explanation of how each matches the user's requirements, along with skill‑gap suggestions, which meets the criteria for a ‘good’ response. However, it contains inaccuracies—such as claiming the blockchain developer role lacks Solidity, and it incorrectly focuses on Flask instead of FastAPI, and it does not explicitly emphasize PostgreSQL or microservices, which were key points in the query. These issues prevent it from reaching the ideal score.",
+      "pass": true,
+      "steps": 1,
+      "elapsed_sec": 29.2,
+      "tools_used": [
+        "search_vacancies",
+        "score_match",
+        "get_skills_gap"
+      ]
+    },
+    {
+      "case_id": 7,
+      "query": "CV-инженер, детекция объектов, YOLO",
+      "mode": "agent",
+      "answer_preview": "**Top‑3 вакансии**  \n1. *Middle Python Developer – AI Project (Kesmaty)* – оценка 9/10, совпадает с Python, PyTorch, OpenCV, YOLO.  \n2. *Middle Python Developer – AI Project (Kesmaty)* – оценка 7/10, ",
+      "judge_score": 5,
+      "judge_reasoning": "Ответ содержит список вакансий, но они все идентичны (трижды перечислен одно и то же объявление), что не соответствует реальному разнообразию позиций. Кроме того, в ответе отсутствует подробное объяснение, почему каждая вакансия подходит для CV‑инженера, занимающегося детекцией объектов и YOLO, и не приводятся конкретные требования к навыкам или описание задач. Хотя упоминаются релевантные технологии (YOLO, PyTorch, OpenCV), общая оценка и описание вакансий не дают достаточного контекста. В итоге ответ попадает в категорию «частичного», т.е. 4–6 баллов.",
+      "pass": false,
+      "steps": 1,
+      "elapsed_sec": 26.6,
+      "tools_used": [
+        "search_vacancies",
+        "score_match",
+        "get_skills_gap"
+      ]
+    },
+    {
+      "case_id": 8,
+      "query": "Research scientist, LLM fine-tuning, RL",
+      "mode": "agent",
+      "answer_preview": "**Top‑3 вакансии**  \n1. **Betby – Math Modeler / Data Scientist** (score 3/10) – совпадает с Python, PyTorch, но не хватает опыта в спортивных ставках, математическом моделировании, статистике и вероя",
+      "judge_score": 7,
+      "judge_reasoning": "The system answer provides three candidate vacancies and explains why each does not fully match the user's specialization in LLM fine-tuning and RL, while also suggesting areas for skill development. This includes specific skills and knowledge gaps. The response contains both vacancies and a clear explanation, meeting the criteria for a good answer.",
+      "pass": true,
+      "steps": 1,
+      "elapsed_sec": 18.3,
+      "tools_used": [
+        "search_vacancies",
+        "score_match",
+        "get_skills_gap"
+      ]
+    },
+    {
+      "case_id": 9,
+      "query": "Data Analyst для продуктовой компании",
+      "mode": "agent",
+      "answer_preview": "**Top‑3 вакансии для Data Analyst в продуктовой компании**  \n1. **Data Analyst (middle/senior) – Fundraise Up** – оценка совпадения ≈ 5/10: требуется Python, NumPy, Pandas, Matplotlib, Scikit‑learn.  ",
+      "judge_score": 8,
+      "judge_reasoning": "Ответ содержит конкретные вакансии для Data Analyst в продуктовых компаниях и кратко объясняет, почему каждая позиция получила свой балл, упоминая ключевые навыки и инструменты. Это соответствует критериям \"хорошего\" ответа (группа 7‑9).",
+      "pass": true,
+      "steps": 1,
+      "elapsed_sec": 15.2,
+      "tools_used": [
+        "search_vacancies",
+        "score_match",
+        "get_skills_gap"
+      ]
+    },
+    {
+      "case_id": 10,
+      "query": "Разработчик рекомендательных систем",
+      "mode": "agent",
+      "answer_preview": "**Топ‑3 вакансии**  \n1. **Middle/Python developer (AI project) – Kesmaty** – оценка совпадения **1/10**.  \n2. **Middle/Python developer (AI project) – Kesmaty** (вариант 3) – оценка совпадения **0/10*",
+      "judge_score": 5,
+      "judge_reasoning": "Ответ содержит три вакансии, но все они идентичны и не объясняют, почему оценка совпадения так низка. Нет анализа навыков кандидата и конкретных критериев сопоставления. Вопрос о разработчике рекомендательных систем не полностью удовлетворён, поэтому оценка в диапазоне 4–6.",
+      "pass": false,
+      "steps": 2,
+      "elapsed_sec": 48.6,
+      "tools_used": [
+        "search_vacancies",
+        "score_match",
+        "get_skills_gap"
+      ]
+    },
+    {
+      "case_id": 11,
+      "query": "Какие вакансии требуют знание Kubernetes?",
+      "mode": "rag",
+      "answer_preview": "Вакансии 94 и 10 требуют знание Kubernetes.",
+      "judge_score": 5,
+      "judge_reasoning": "Ответ содержит перечень вакансий (94 и 10), но не объясняет, почему именно они требуют знание Kubernetes, и не анализирует навыки, необходимые для каждой позиции. По шкале критериев это частичный ответ, поэтому оценка 5.",
+      "pass": false,
+      "steps": 1,
+      "elapsed_sec": 5.4,
+      "tools_used": [
+        "bm25_search",
+        "llm_answer_gen"
+      ]
+    },
+    {
+      "case_id": 12,
+      "query": "Вакансии с зарплатой выше 200 тысяч для ML-инженера",
+      "mode": "rag",
+      "answer_preview": "Нет вакансий с зарплатой выше 200 000 RUR для ML‑инженера.",
+      "judge_score": 2,
+      "judge_reasoning": "Ответ содержит только отрицание наличия вакансий без объяснения или дополнительных деталей. По шкале оценивания это считается плохим ответом.",
+      "pass": false,
+      "steps": 1,
+      "elapsed_sec": 11.2,
+      "tools_used": [
+        "bm25_search",
+        "llm_answer_gen"
+      ]
+    },
+    {
+      "case_id": 13,
+      "query": "Где нужен опыт с облаками AWS или GCP?",
+      "mode": "rag",
+      "answer_preview": "Опыт работы с облаками AWS или GCP требуется в следующих вакансиях: 55 (Azure DevOps – AWS и GCP), 94 (Full‑stack engineer – Google Cloud Platform), 19 (Middle DevOps Engineer – AWS) и 49 (Senior back",
+      "judge_score": 8,
+      "judge_reasoning": "Ответ содержит конкретные вакансии с указанием ID и названия ролей, где требуется опыт работы с AWS или GCP. Включена информация о том, какие облака используются в каждой вакансии. Однако не объяснено, почему именно эти вакансии выбраны, и нет дополнительного анализа навыков, поэтому оценка 8 (хороший ответ).",
+      "pass": true,
+      "steps": 1,
+      "elapsed_sec": 33.6,
+      "tools_used": [
+        "bm25_search",
+        "llm_answer_gen"
+      ]
+    },
+    {
+      "case_id": 14,
+      "query": "Junior позиции для выпускника с Python и ML",
+      "mode": "agent",
+      "answer_preview": "В поиске не найдено открытых Junior‑вакансий; все найденные позиции – senior‑уровень.  \nТоп‑3 по совпадению навыков:  \n1. **Senior backend developer – Python (AI/ML)** (Novakid Inc.) – оценка 2/10, со",
+      "judge_score": 8,
+      "judge_reasoning": "Ответ содержит список найденных вакансий (хотя они старшего уровня) и объясняет, почему они не подходят для выпускника, а также предлагает конкретные навыки для повышения шансов. Это соответствует критериям хорошего ответа (наличие вакансий и объяснение).",
+      "pass": true,
+      "steps": 2,
+      "elapsed_sec": 58.1,
+      "tools_used": [
+        "search_vacancies",
+        "score_match",
+        "get_skills_gap"
+      ]
+    },
+    {
+      "case_id": 15,
+      "query": "Компании, которые ищут специалистов по NLP и обработке текста",
+      "mode": "rag",
+      "answer_preview": "Компания, которая ищет специалистов по NLP и обработке текста: kesmaty.",
+      "judge_score": 2,
+      "judge_reasoning": "Ответ содержит только одно упоминание компании без объяснения, списка вакансий, критериев совпадения или анализа навыков. В запросе требовалось перечисление компаний, которые ищут специалистов по NLP и обработке текста, а также объяснение, почему они подходят. Такой короткий и неполный ответ не соответствует требованиям.",
+      "pass": false,
+      "steps": 1,
+      "elapsed_sec": 7.2,
+      "tools_used": [
+        "bm25_search",
+        "llm_answer_gen"
+      ]
+    }
+  ]
+}

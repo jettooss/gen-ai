@@ -1,0 +1,293 @@
+{
+  "reports": [
+    {
+      "vacancy_id": "0",
+      "ghost_skills": [
+        "Python",
+        "AI"
+      ],
+      "verified_skills": [],
+      "hallucination_rate": 1.0
+    },
+    {
+      "vacancy_id": "2",
+      "ghost_skills": [],
+      "verified_skills": [
+        "Unity"
+      ],
+      "hallucination_rate": 0.0
+    },
+    {
+      "vacancy_id": "3",
+      "ghost_skills": [
+        "Python",
+        "Mobile Application Backend",
+        "Telegram Bot",
+        "AI Project"
+      ],
+      "verified_skills": [
+        "Backend Development",
+        "Third-Party Integration"
+      ],
+      "hallucination_rate": 0.667
+    },
+    {
+      "vacancy_id": "4",
+      "ghost_skills": [
+        "Web Application"
+      ],
+      "verified_skills": [
+        "Python",
+        "Telegram Bot",
+        "Backend Development",
+        "OOP",
+        "SOLID",
+        "Programming Patterns"
+      ],
+      "hallucination_rate": 0.143
+    },
+    {
+      "vacancy_id": "5",
+      "ghost_skills": [
+        "C++",
+        "Embedded Systems",
+        "Firmware",
+        "Debugging",
+        "Assembly",
+        "Linux"
+      ],
+      "verified_skills": [
+        "RTOS",
+        "C",
+        "Low-level Drivers"
+      ],
+      "hallucination_rate": 0.667
+    },
+    {
+      "vacancy_id": "6",
+      "ghost_skills": [
+        "ASP.NET",
+        "Git"
+      ],
+      "verified_skills": [
+        ".NET",
+        "C#",
+        "Jira",
+        "YouTrack"
+      ],
+      "hallucination_rate": 0.333
+    },
+    {
+      "vacancy_id": "7",
+      "ghost_skills": [
+        "Python",
+        "Machine Learning",
+        "Mobile Application Backend"
+      ],
+      "verified_skills": [
+        "DevOps",
+        "Data Pipelines",
+        "Data Lakes",
+        "Data Warehouses",
+        "Backend Development",
+        "Third-Party Integration"
+      ],
+      "hallucination_rate": 0.333
+    },
+    {
+      "vacancy_id": "8",
+      "ghost_skills": [],
+      "verified_skills": [
+        "linux",
+        "bash",
+        "docker",
+        "k8s",
+        "swarm",
+        "zabbix",
+        "sentry",
+        "ci/cd"
+      ],
+      "hallucination_rate": 0.0
+    },
+    {
+      "vacancy_id": "9",
+      "ghost_skills": [
+        "Python"
+      ],
+      "verified_skills": [
+        "MongoDB",
+        "Elasticsearch",
+        "Redis",
+        "Cassandra"
+      ],
+      "hallucination_rate": 0.2
+    },
+    {
+      "vacancy_id": "10",
+      "ghost_skills": [
+        "CI/CD"
+      ],
+      "verified_skills": [
+        "Linux",
+        "Bash",
+        "Docker",
+        "Kubernetes"
+      ],
+      "hallucination_rate": 0.2
+    },
+    {
+      "vacancy_id": "11",
+      "ghost_skills": [
+        "IT"
+      ],
+      "verified_skills": [
+        "fintech",
+        "blockchain",
+        "crypto",
+        "bot management",
+        "optimization",
+        "customer communication",
+        "report writing",
+        "finance",
+        "trading"
+      ],
+      "hallucination_rate": 0.1
+    },
+    {
+      "vacancy_id": "12",
+      "ghost_skills": [
+        "Unity",
+        "C#"
+      ],
+      "verified_skills": [
+        "Game Development"
+      ],
+      "hallucination_rate": 0.667
+    },
+    {
+      "vacancy_id": "13",
+      "ghost_skills": [
+        "C",
+        "C++",
+        "ARM",
+        "microcontroller",
+        "firmware"
+      ],
+      "verified_skills": [
+        "RTOS"
+      ],
+      "hallucination_rate": 0.833
+    },
+    {
+      "vacancy_id": "14",
+      "ghost_skills": [
+        "REST API",
+        "OpenAI GPT"
+      ],
+      "verified_skills": [
+        "java",
+        "spring framework"
+      ],
+      "hallucination_rate": 0.5
+    },
+    {
+      "vacancy_id": "15",
+      "ghost_skills": [
+        "Python",
+        "Power BI",
+        "Excel",
+        "Data Analysis"
+      ],
+      "verified_skills": [
+        "SQL",
+        "Business Intelligence"
+      ],
+      "hallucination_rate": 0.667
+    },
+    {
+      "vacancy_id": "17",
+      "ghost_skills": [
+        "sports betting",
+        "data cleaning",
+        "data preprocessing",
+        "sports events"
+      ],
+      "verified_skills": [
+        "python",
+        "c#",
+        "predictive modeling",
+        "machine learning",
+        "data analysis",
+        "esports events"
+      ],
+      "hallucination_rate": 0.4
+    },
+    {
+      "vacancy_id": "19",
+      "ghost_skills": [],
+      "verified_skills": [
+        "devops",
+        "php",
+        "ms azure",
+        "ovh.us",
+        "aws",
+        "b2",
+        "centos",
+        "almalinux",
+        "mariadb",
+        "mysql"
+      ],
+      "hallucination_rate": 0.0
+    },
+    {
+      "vacancy_id": "20",
+      "ghost_skills": [
+        "Node.js",
+        "smart contracts",
+        "blockchain",
+        "Ethereum",
+        "Solidity",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "verified_skills": [
+        "web3"
+      ],
+      "hallucination_rate": 0.875
+    },
+    {
+      "vacancy_id": "21",
+      "ghost_skills": [],
+      "verified_skills": [
+        "Python",
+        "multi-threading",
+        "multi-processing",
+        "communication protocols",
+        "databases",
+        "network",
+        "storage",
+        "security"
+      ],
+      "hallucination_rate": 0.0
+    },
+    {
+      "vacancy_id": "23",
+      "ghost_skills": [],
+      "verified_skills": [
+        "C#",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Creatio",
+        "XML"
+      ],
+      "hallucination_rate": 0.0
+    }
+  ],
+  "summary": {
+    "total_skills": 129,
+    "total_ghost": 45,
+    "overall_hallucination_rate": 0.349,
+    "vacancies_checked": 20
+  }
+}
