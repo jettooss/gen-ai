@@ -56,7 +56,7 @@ T = TypeVar("T")
 
 
 def _make_openai_client() -> OpenAI:
-    base = os.environ.get("LLM_BASE_URL")
+    base = os.environ.get("LLM_BASE_URL") or os.environ.get("OPENAI_BASE_URL")
     if base:
         key = os.environ.get("LLM_AUTH_TOKEN") or os.environ.get("OPENAI_API_KEY")
         if not key:
@@ -78,7 +78,11 @@ def _make_openai_client() -> OpenAI:
 
 
 def get_model() -> str:
-    return os.environ.get("LLM_MODEL", "gpt-4.1-mini")
+    return os.environ.get("LLM_MODEL") or os.environ.get("OPENAI_MODEL", "gpt-4.1-mini")
+
+
+def _base_url() -> str:
+    return os.environ.get("LLM_BASE_URL") or os.environ.get("OPENAI_BASE_URL", "")
 
 
 # ---------------------------------------------------------------------------
@@ -102,7 +106,12 @@ def _thinking_off_payload() -> dict:
         "none" приняли обе вселенные, поэтому используем его).
       * Незнакомые поля сервер обычно игнорирует, так что кидаем оба сразу.
     """
-    if os.environ.get("LLM_THINKING", "off").lower() in ("on", "1", "true", "yes"):
+    thinking_mode = os.environ.get("LLM_THINKING", "").lower()
+    model = get_model().lower()
+    base = _base_url().lower()
+    if thinking_mode in ("on", "1", "true", "yes"):
+        return {}
+    if "routerai" in base or "gpt-oss" in model:
         return {}
     return {
         "extra_body": {"chat_template_kwargs": {"enable_thinking": False}},
@@ -215,7 +224,12 @@ class _Completions:
                 except Exception as sdk_err:
                     # Сервер не переварил reasoning_effort / extra_body — сбросим их и повторим.
                     msg = str(sdk_err)
-                    bad = "reasoning_effort" in msg or "chat_template_kwargs" in msg or "enable_thinking" in msg
+                    bad = (
+                        "reasoning_effort" in msg
+                        or "chat_template_kwargs" in msg
+                        or "enable_thinking" in msg
+                        or "reasoning is mandatory" in msg.lower()
+                    )
                     if bad and thinking_kw:
                         thinking_kw = {}
                         resp = _call(thinking_kw)
